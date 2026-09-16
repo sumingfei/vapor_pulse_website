@@ -1,0 +1,377 @@
+@import "tailwindcss";
+
+/*
+ * DESIGN TOKENS — sampled directly from the supplied Vapor Pulse logo files.
+ *
+ *   #62D2F9  cyan      — the "PULSE" lettering in vapor_pulse_logo2
+ *   #E037F6  magenta   — smoke highlights in both logos
+ *   #805BF1  violet    — mid-tone in the vapor/cloud artwork
+ *   #3270DB  blue      — deep cloud shadow
+ *
+ * Backgrounds carry a slight blue-violet cast so the neon artwork (which sits
+ * on pure black) reads as a light source rather than a pasted rectangle.
+ */
+@theme {
+  --color-ink-950: #05060b;
+  --color-ink-900: #0a0c14;
+  --color-ink-850: #0e1119;
+  --color-ink-800: #141824;
+  --color-ink-700: #1d2233;
+  --color-ink-600: #2a3047;
+
+  --color-fog-50: #f4f7ff;
+  --color-fog-100: #e4eaf8;
+  --color-fog-200: #ccd6ec;
+  --color-fog-400: #98a4c0;
+  --color-fog-500: #7b89a7;
+
+  --color-pulse-cyan: #62d2f9;
+  --color-pulse-cyan-bright: #9ae8ff;
+  --color-pulse-magenta: #e037f6;
+  --color-pulse-violet: #805bf1;
+  --color-pulse-blue: #3270db;
+
+  --font-display: var(--font-anton), "Arial Narrow", sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Clear the sticky header when jumping to an anchor. */
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    background-color: var(--color-ink-950);
+    color: var(--color-fog-200);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-fog-50);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Visible, high-contrast keyboard focus everywhere. */
+  :focus-visible {
+    outline: 2px solid var(--color-pulse-cyan);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-pulse-magenta) 45%, transparent);
+    color: #fff;
+  }
+
+  /* Keep the neon artwork's black background from showing as a box. */
+  .blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  /* Devices that already passed the age gate get it hidden before first paint,
+     so returning visitors never see it flash. Set by AGE_GATE_INLINE_SCRIPT. */
+  html[data-age-ok] .age-gate {
+    display: none;
+  }
+}
+
+@layer components {
+  /* ---------------------------------------------------------------- layout */
+  .container-vp {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-vp {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* ------------------------------------------------------------- surfaces */
+  /* The default card. Deliberately NOT glowing — glow is reserved for CTAs
+     and the mascot, so it keeps its meaning. */
+  .panel {
+    background:
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--color-ink-850) 92%, transparent),
+        color-mix(in srgb, var(--color-ink-900) 96%, transparent)
+      );
+    border: 1px solid color-mix(in srgb, var(--color-fog-400) 12%, transparent);
+    border-radius: 1rem;
+  }
+
+  /* Single hairline of brand light along the top edge of a card. */
+  .panel-lit {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .panel-lit::before {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--color-pulse-cyan) 65%, transparent),
+      color-mix(in srgb, var(--color-pulse-magenta) 45%, transparent),
+      transparent
+    );
+  }
+
+  .panel-hover {
+    transition:
+      border-color 200ms ease,
+      transform 200ms ease,
+      background-color 200ms ease;
+  }
+
+  .panel-hover:hover {
+    border-color: color-mix(in srgb, var(--color-pulse-cyan) 40%, transparent);
+    transform: translateY(-2px);
+  }
+
+  /* --------------------------------------------------------------- accents */
+  .text-neon-cyan {
+    color: var(--color-pulse-cyan-bright);
+    text-shadow:
+      0 0 14px color-mix(in srgb, var(--color-pulse-cyan) 50%, transparent),
+      0 0 38px color-mix(in srgb, var(--color-pulse-cyan) 20%, transparent);
+  }
+
+  .text-neon-magenta {
+    color: #f7a6ff;
+    text-shadow:
+      0 0 14px color-mix(in srgb, var(--color-pulse-magenta) 50%, transparent),
+      0 0 38px color-mix(in srgb, var(--color-pulse-magenta) 20%, transparent);
+  }
+
+  /* Eyebrow label above section headings. */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-pulse-cyan);
+  }
+
+  /* Radial brand light. Used sparingly — behind the mascot and the hero. */
+  .glow-field {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(70px);
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  /* ---------------------------------------------------------------- button */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    transition:
+      transform 160ms ease,
+      box-shadow 200ms ease,
+      background-color 200ms ease,
+      border-color 200ms ease,
+      color 200ms ease;
+  }
+
+  .btn:active {
+    transform: translateY(1px);
+  }
+
+  /* Primary = Get Directions. The only element on the page with a full glow.
+     The violet endpoint is deliberately lighter than --color-pulse-violet so
+     the dark label clears WCAG AA (4.5:1) across the whole gradient, not just
+     the cyan end. */
+  .btn-primary {
+    background: linear-gradient(
+      135deg,
+      #7fdcff 0%,
+      var(--color-pulse-cyan) 42%,
+      #9b7cf7 100%
+    );
+    color: #04121c;
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, var(--color-pulse-cyan) 45%, transparent),
+      0 8px 30px -8px color-mix(in srgb, var(--color-pulse-cyan) 55%, transparent);
+  }
+
+  .btn-primary:hover {
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, var(--color-pulse-cyan) 70%, transparent),
+      0 10px 40px -6px color-mix(in srgb, var(--color-pulse-cyan) 75%, transparent);
+  }
+
+  .btn-secondary {
+    background: color-mix(in srgb, var(--color-fog-50) 7%, transparent);
+    color: var(--color-fog-50);
+    border: 1px solid color-mix(in srgb, var(--color-fog-400) 26%, transparent);
+    backdrop-filter: blur(6px);
+  }
+
+  .btn-secondary:hover {
+    background: color-mix(in srgb, var(--color-fog-50) 12%, transparent);
+    border-color: color-mix(in srgb, var(--color-pulse-cyan) 50%, transparent);
+    color: #fff;
+  }
+
+  .btn-ghost {
+    color: var(--color-fog-200);
+  }
+
+  .btn-ghost:hover {
+    color: var(--color-pulse-cyan-bright);
+  }
+
+  /* --------------------------------------------------------------- texture */
+  /* Very subtle film grain so large dark areas do not band on OLED screens. */
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* ------------------------------------------------------------------ motion */
+/* Restrained by design: a one-shot flicker on load, a slow float, and a slow
+   glow breath. Nothing loops fast, nothing bounces. */
+@keyframes vp-neon-in {
+  0% {
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.85;
+  }
+  18% {
+    opacity: 0.25;
+  }
+  26% {
+    opacity: 0.95;
+  }
+  34% {
+    opacity: 0.4;
+  }
+  44% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes vp-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes vp-glow-breathe {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes vp-trace {
+  from {
+    stroke-dashoffset: var(--trace-length, 1200);
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes vp-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-neon-in {
+  animation: vp-neon-in 1.6s ease-out both;
+}
+
+.animate-float {
+  animation: vp-float 7s ease-in-out infinite;
+}
+
+.animate-glow-breathe {
+  animation: vp-glow-breathe 6s ease-in-out infinite;
+}
+
+.animate-trace {
+  stroke-dasharray: var(--trace-length, 1200);
+  animation: vp-trace 2.4s ease-out both;
+}
+
+.animate-fade-up {
+  animation: vp-fade-up 500ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .animate-trace {
+    stroke-dasharray: none;
+  }
+
+  .panel-hover:hover {
+    transform: none;
+  }
+}
