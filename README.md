@@ -56,6 +56,21 @@ referenced by the CSV's `ImageLocation` column. Only categories listed in
 label there to publish another category. `PREFER_TRANSFORMED` switches to the
 dark-background `-transformed` renders where they exist.
 
+## Suggestion box
+
+The homepage suggestion box submits through a server action
+(`src/app/actions/suggestion.ts`) that delivers to `business.email`.
+
+- **With `RESEND_API_KEY` set** the message is relayed via Resend's REST API,
+  with `reply_to` set to the visitor's address when they gave one.
+- **Without it** the action returns the composed message as a `mailto:` link
+  and the dialog opens the visitor's own mail app — never a dead end.
+
+Resend's free tier only delivers to the account owner's own address until a
+sending domain is verified, so either verify a domain and set
+`CONTACT_FROM_EMAIL`, or register the Resend account with the shop inbox.
+On Cloudflare, set the key as a Worker secret: `wrangler secret put RESEND_API_KEY`.
+
 ## Store hours
 
 `src/lib/hours.ts` is the single source of truth for open/closed logic. All
