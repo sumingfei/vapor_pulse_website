@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:44:40.109Z",
+  "generatedAt": "2026-09-17T17:51:52.570Z",
   "products": [
     {
       "id": "air-factory-20k-disposable",
@@ -101,7 +101,7 @@
       "id": "hi-5-50k-disposable-flavor-pod",
       "name": "Hi 5 50k Disposable Flavor Pod",
       "categorySlug": "disposable-vapes",
-      "image": null
+      "image": "/products/disposable-vapes/hi-5-50k-disposable-flavor-pod-transformed.webp"
     },
     {
       "id": "hi-5-50k-disposable-starter-kit",
