@@ -12,6 +12,7 @@ import {
   ReadReviewsButton,
 } from "@/components/ui/ReviewButtons";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { SuggestionSection } from "@/components/suggestion/SuggestionSection";
 import { business } from "@/data/business";
 import { breadcrumbSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
@@ -156,6 +157,9 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Sits directly under the hours/reviews row, so no top padding. */}
+      <SuggestionSection className="pt-0 sm:pt-0" />
     </>
   );
 }

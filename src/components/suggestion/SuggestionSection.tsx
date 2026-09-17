@@ -1,12 +1,13 @@
 import { MessageSquarePlus } from "lucide-react";
 
 import { PuffMascot } from "@/components/brand/PuffMascot";
-import { SuggestionDialog } from "@/components/home/SuggestionDialog";
+import { SuggestionDialog } from "@/components/suggestion/SuggestionDialog";
+import { cn } from "@/lib/utils";
 
 /** Suggestion box — same panel treatment as the rewards section. */
-export function SuggestionSection() {
+export function SuggestionSection({ className }: { className?: string }) {
   return (
-    <section className="py-20 sm:py-24">
+    <section className={cn("py-20 sm:py-24", className)}>
       <div className="container-vp">
         <div className="panel panel-lit relative overflow-hidden">
           <div

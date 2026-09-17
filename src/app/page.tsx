@@ -6,7 +6,7 @@ import { HoursSection } from "@/components/home/HoursSection";
 import { LocationSection } from "@/components/home/LocationSection";
 import { QuickInfoBar } from "@/components/home/QuickInfoBar";
 import { RewardsSection } from "@/components/home/RewardsSection";
-import { SuggestionSection } from "@/components/home/SuggestionSection";
+import { SuggestionSection } from "@/components/suggestion/SuggestionSection";
 import { WhySection } from "@/components/home/WhySection";
 import { business } from "@/data/business";
 import { pageMetadata } from "@/lib/seo";
