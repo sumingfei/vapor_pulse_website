@@ -43,7 +43,7 @@ const PUBLISHED_CATEGORIES = new Set(["Disposable Vapes"]);
  * CSV names, use it instead. Those are the dark-background renders that suit
  * the site's theme; the CSV itself keeps pointing at the white originals.
  */
-const PREFER_TRANSFORMED = false;
+const PREFER_TRANSFORMED = true;
 
 /** Minimal RFC 4180 parser — handles quoted fields with commas and "" escapes. */
 function parseCsv(text) {
