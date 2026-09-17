@@ -27,7 +27,8 @@ stale copy undoes it.
 | What | Where | Current state |
 | --- | --- | --- |
 | Address, phone, hours, rating | `src/data/business.ts` | Live |
-| Product categories | `src/data/categories.ts` | 6 categories |
+| Product categories | `src/data/categories.ts` | 8 categories |
+| Product catalog | `src/data/catalog.json` (generated) | Disposable Vapes published |
 | Rewards program | `src/data/rewards.ts` | Redemption tiers confirmed; earn rate still unconfirmed |
 | FAQs | `src/data/faqs.ts` | 8 questions |
 | About copy | `src/data/about.ts` | Live, no dates claimed |
@@ -37,6 +38,23 @@ Empty data files are **deliberate**, not unfinished. Each one renders a
 polished "call the shop" state instead of placeholder text, and switches to the
 full UI as soon as real entries are added. Nothing about inventory, pricing
 or loyalty rules is invented anywhere in this codebase.
+
+## Product catalog
+
+Product listings come from the shop's POS inventory export, which contains
+cost, margin and stock data and therefore **must never be committed or placed
+under `public/`**. The workflow keeps it private:
+
+1. Drop the export CSV into `data/inventory/` (git-ignored).
+2. Run `npm run import:inventory`.
+3. Commit the regenerated `src/data/catalog.json` — it carries only product
+   name, category and image path.
+
+Product photos live under `public/products/<category-slug>/` and are
+referenced by the CSV's `ImageLocation` column. Only categories listed in
+`PUBLISHED_CATEGORIES` in `scripts/import-inventory.mjs` are published; add a
+label there to publish another category. `PREFER_TRANSFORMED` switches to the
+dark-background `-transformed` renders where they exist.
 
 ## Store hours
 

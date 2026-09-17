@@ -1,49 +1,39 @@
 /**
  * Product catalog.
  *
- * INTENTIONALLY EMPTY. Individual products are not listed because we cannot
- * assert that any specific item is on the shelf right now — every product CTA
- * on the site routes to a phone call instead.
+ * `catalog.json` is GENERATED — do not edit it by hand. It is produced from the
+ * shop's inventory export by `npm run import:inventory`, which keeps only the
+ * fields the site may show (name, category, image). Prices, costs and stock
+ * levels never reach this file, so nothing here can go stale or leak.
  *
- * This module exists as the seam for a future inventory source: point
- * `getProducts` at a real API and the product grid on /products starts
- * rendering with no component changes.
- *
- * Stock levels and prices are deliberately NOT modelled. Add those fields only
- * when there is a real system behind them — a `price` or `inStock` field with
- * hand-maintained values goes stale silently, which is worse than no field.
+ * To refresh: drop the latest export into data/inventory/ and re-run the
+ * import. To publish another category, add it to PUBLISHED_CATEGORIES in
+ * scripts/import-inventory.mjs.
  */
+
+import catalog from "./catalog.json";
 
 export type Product = {
   id: string;
   name: string;
-  brand: string;
-  /** Must match a `slug` from src/data/categories.ts. */
+  /** Matches a `slug` from src/data/categories.ts. */
   categorySlug: string;
-  description: string;
-  /** Path under /public, or an absolute URL from the inventory source. */
-  image?: string;
+  /** Path under /public, or null when the export had no image. */
+  image: string | null;
 };
 
-/**
- * Local catalog entries. Anything added here is treated as real, published
- * content — do not use this for demo or filler products.
- */
-export const catalog: Product[] = [];
+const products: Product[] = catalog.products;
 
 /**
- * Single read path for product data.
- *
- * Async on purpose: when an inventory API is connected this becomes a fetch
- * (cache/revalidate as appropriate) without touching any caller.
+ * Async on purpose: swapping this for a live inventory API later is a change
+ * to this function only.
  */
 export async function getProducts(): Promise<Product[]> {
-  return catalog;
+  return products;
 }
 
 export async function getProductsByCategory(
   categorySlug: string,
 ): Promise<Product[]> {
-  const products = await getProducts();
   return products.filter((product) => product.categorySlug === categorySlug);
 }

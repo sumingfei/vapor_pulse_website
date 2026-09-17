@@ -1,17 +1,12 @@
 import Image from "next/image";
 import { PackageSearch } from "lucide-react";
 
-import { CallButton } from "@/components/location/CallButton";
-import { getCategory } from "@/data/categories";
 import type { Product } from "@/data/products";
 import { cn } from "@/lib/utils";
 
 /**
- * A single catalog item.
- *
- * The CTA is always "Call for Availability" — never "Buy Now" and never a
- * stock badge. Nothing here implies live inventory, because there is none
- * behind it yet.
+ * A single catalog item: photo and name. Deliberately no price and no stock
+ * badge — availability is always a phone call away, never implied here.
  */
 export function ProductCard({
   product,
@@ -20,17 +15,15 @@ export function ProductCard({
   product: Product;
   className?: string;
 }) {
-  const category = getCategory(product.categorySlug);
-
   return (
-    <article className={cn("panel panel-lit panel-hover flex flex-col", className)}>
-      <div className="bg-ink-800/60 relative aspect-4/3 overflow-hidden rounded-t-2xl">
+    <li className={cn("panel panel-hover flex flex-col overflow-hidden", className)}>
+      <div className="relative aspect-square bg-white/[0.04] p-4">
         {product.image ? (
           <Image
             src={product.image}
-            alt={`${product.brand} ${product.name}`}
+            alt={product.name}
             fill
-            sizes="(min-width: 1024px) 320px, (min-width: 640px) 45vw, 90vw"
+            sizes="(min-width: 1280px) 200px, (min-width: 768px) 25vw, 45vw"
             className="object-contain p-4"
           />
         ) : (
@@ -42,28 +35,9 @@ export function ProductCard({
           </div>
         )}
       </div>
-
-      <div className="flex grow flex-col p-5">
-        <p className="text-pulse-cyan text-[11px] font-semibold uppercase tracking-wider">
-          {product.brand}
-        </p>
-        <h3 className="font-display text-fog-50 mt-1.5 text-lg uppercase leading-tight tracking-wide">
-          {product.name}
-        </h3>
-        {category && (
-          <p className="text-fog-500 mt-1 text-xs">{category.name}</p>
-        )}
-        <p className="text-fog-400 mt-3 grow text-sm leading-relaxed">
-          {product.description}
-        </p>
-        <div className="mt-5">
-          <CallButton
-            size="sm"
-            label="Call for Availability"
-            location={`product_${product.id}`}
-          />
-        </div>
-      </div>
-    </article>
+      <p className="text-fog-100 px-3.5 py-3 text-sm leading-snug font-medium">
+        {product.name}
+      </p>
+    </li>
   );
 }

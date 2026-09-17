@@ -51,3 +51,7 @@ next-env.d.ts
 .wrangler
 .dev.vars*
 !.dev.vars.example
+
+# Raw inventory exports contain cost and margin data — never commit or serve.
+# The public catalog is generated from them by `npm run import:inventory`.
+/data/inventory/

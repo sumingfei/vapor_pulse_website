@@ -24,9 +24,15 @@ const crumbs = [
 ];
 
 export default async function ProductsPage() {
-  // Empty until an inventory source is connected; the section below is skipped
-  // entirely rather than showing filler products.
+  // Categories with no imported products simply show their description; the
+  // product grid appears only where the catalog actually has entries.
   const products = await getProducts();
+  const byCategory = new Map<string, typeof products>();
+  for (const product of products) {
+    const list = byCategory.get(product.categorySlug) ?? [];
+    list.push(product);
+    byCategory.set(product.categorySlug, list);
+  }
 
   return (
     <>
@@ -64,24 +70,11 @@ export default async function ProductsPage() {
         </div>
       </section>
 
-      {products.length > 0 && (
-        <section className="container-vp py-12">
-          <SectionHeading
-            eyebrow="In the shop"
-            title="Selected Products"
-            description="A sample of what we carry. Give us a call to check on any of these before you visit."
-          />
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </section>
-      )}
-
       <section className="container-vp py-12">
         <div className="space-y-4">
-          {categories.map((category) => (
+          {categories.map((category) => {
+            const items = byCategory.get(category.slug) ?? [];
+            return (
             <article
               key={category.slug}
               id={category.slug}
@@ -112,8 +105,20 @@ export default async function ProductsPage() {
                   location={`products_${category.slug}`}
                 />
               </div>
+
+              {items.length > 0 && (
+                <ul
+                  aria-label={`${category.name} we carry`}
+                  className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5"
+                >
+                  {items.map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                  ))}
+                </ul>
+              )}
             </article>
-          ))}
+            );
+          })}
         </div>
       </section>
 

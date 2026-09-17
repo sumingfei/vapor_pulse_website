@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-09-17T05:58:39.542Z",
+  "products": [
+    {
+      "id": "air-factory-20k-disposable",
+      "name": "Air Factory 20k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/air-factory-20k-disposable.webp"
+    },
+    {
+      "id": "artery-45k-disposable",
+      "name": "Artery 45k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/artery-45k-disposable.webp"
+    },
+    {
+      "id": "artery-50k-disposable",
+      "name": "Artery 50k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/artery-50k-disposable.webp"
+    },
+    {
+      "id": "digi-flavor-brk",
+      "name": "Digi Flavor BRK",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/digi-flavor-brk.webp"
+    },
+    {
+      "id": "dinner-lady-50k-disposable",
+      "name": "Dinner Lady 50k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/dinner-lady-50k-disposable.webp"
+    },
+    {
+      "id": "fifty-bar-20k-disposable",
+      "name": "Fifty Bar 20k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/fifty-bar-20k-disposable.webp"
+    },
+    {
+      "id": "foger-replacement-battery-single-battery",
+      "name": "Foger Replacement Battery ( Single Battery )",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/foger-replacement-battery-single-battery.webp"
+    },
+    {
+      "id": "foger-switch-30k-puff-starter-kit-pod-batt",
+      "name": "Foger Switch 30k Puff Starter Kit [Pod + Batt.]",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/foger-switch-30k-puff-starter-kit-pod-batt.webp"
+    },
+    {
+      "id": "foger-switch-flavor-pod-pod-only",
+      "name": "Foger Switch Flavor Pod [Pod Only]",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/foger-switch-flavor-pod-pod-only.webp"
+    },
+    {
+      "id": "geekbar-clr-50k-disposable",
+      "name": "Geekbar CLR 50K Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-clr-50k-disposable.webp"
+    },
+    {
+      "id": "geekbar-mate-60k-disposable-pod",
+      "name": "Geekbar Mate 60K Disposable POD",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-mate-60k-disposable-pod.webp"
+    },
+    {
+      "id": "geekbar-mate-kit-60k-disposable",
+      "name": "Geekbar Mate Kit 60k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-mate-kit-60k-disposable.webp"
+    },
+    {
+      "id": "geekbar-pulse-15k-disposable",
+      "name": "Geekbar Pulse 15k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-pulse-15k-disposable.webp"
+    },
+    {
+      "id": "geekbar-pulse-2-25k-disposable",
+      "name": "Geekbar Pulse 2 25k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-pulse-2-25k-disposable.webp"
+    },
+    {
+      "id": "geekbar-pulse-x-25k-disposable",
+      "name": "Geekbar Pulse X 25k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-pulse-x-25k-disposable.webp"
+    },
+    {
+      "id": "geekbar-pulse-x2-50k-disposable",
+      "name": "Geekbar Pulse X2 50k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/geekbar-pulse-x2-50k-disposable.webp"
+    },
+    {
+      "id": "hi-5-50k-disposable-flavor-pod",
+      "name": "Hi 5 50k Disposable Flavor Pod",
+      "categorySlug": "disposable-vapes",
+      "image": null
+    },
+    {
+      "id": "hi-5-50k-disposable-starter-kit",
+      "name": "Hi 5 50k Disposable Starter Kit",
+      "categorySlug": "disposable-vapes",
+      "image": null
+    },
+    {
+      "id": "losgal-25k-puff-disposable",
+      "name": "Losgal 25k Puff Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/losgal-25k-puff-disposable.webp"
+    },
+    {
+      "id": "lost-mary-nera-70k-disposable-starter-kit",
+      "name": "Lost Mary Nera 70k Disposable Starter Kit",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/lost-mary-nera-70k-disposable-starter-kit.webp"
+    },
+    {
+      "id": "lost-mary-nera-flavor-pods",
+      "name": "Lost Mary Nera Flavor Pods",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/lost-mary-nera-flavor-pods.webp"
+    },
+    {
+      "id": "lost-mary-turbo-35k-disposable",
+      "name": "Lost Mary Turbo 35k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/lost-mary-turbo-35k-disposable.webp"
+    },
+    {
+      "id": "off-stamp-25k-disposable-pod-crystal-cube",
+      "name": "Off Stamp 25k Disposable Pod [Crystal Cube]",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/off-stamp-25k-disposable-pod-crystal-cube.webp"
+    },
+    {
+      "id": "off-stamp-25k-disposable-starter-kit",
+      "name": "Off Stamp 25k Disposable Starter Kit",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/off-stamp-25k-disposable-starter-kit.webp"
+    },
+    {
+      "id": "off-stamp-refillable-pod",
+      "name": "Off Stamp Refillable Pod",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/off-stamp-refillable-pod.webp"
+    },
+    {
+      "id": "off-stamp-replacement-battery",
+      "name": "Off Stamp Replacement Battery",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/off-stamp-replacement-battery.webp"
+    },
+    {
+      "id": "olit-hookah-plus-100k-disposable",
+      "name": "Olit Hookah Plus 100K Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/olit-hookah-plus-100k-disposable.webp"
+    },
+    {
+      "id": "orion-bar-50k-disposable",
+      "name": "Orion Bar 50k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/orion-bar-50k-disposable.webp"
+    },
+    {
+      "id": "raz-25k-disposable",
+      "name": "Raz 25k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/raz-25k-disposable.webp"
+    },
+    {
+      "id": "smok-spaceman-20k-disposable",
+      "name": "Smok Spaceman 20k Disposable",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/smok-spaceman-20k-disposable.webp"
+    },
+    {
+      "id": "space-pulse-30k-disposable-zero-nicotine",
+      "name": "Space Pulse 30k Disposable [ZERO NICOTINE]",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/space-pulse-30k-disposable-zero-nicotine.webp"
+    },
+    {
+      "id": "uno-nine-30k-disposable-flavor-pod",
+      "name": "Uno Nine 30k Disposable Flavor Pod",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/uno-nine-30k-disposable-flavor-pod.webp"
+    },
+    {
+      "id": "uno-nine-30k-disposable-starter-kit",
+      "name": "Uno Nine 30k Disposable Starter Kit",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/uno-nine-30k-disposable-starter-kit.webp"
+    },
+    {
+      "id": "x-posed-35k-disposable-pod-battery",
+      "name": "X-posed 35k Disposable [Pod + Battery]",
+      "categorySlug": "disposable-vapes",
+      "image": "/products/disposable-vapes/x-posed-35k-disposable-pod-battery.webp"
+    }
+  ]
+}
