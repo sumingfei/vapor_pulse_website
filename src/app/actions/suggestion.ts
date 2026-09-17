@@ -20,6 +20,22 @@ function clean(value: FormDataEntryValue | null, max: number) {
   return String(value ?? "").trim().slice(0, max);
 }
 
+/**
+ * The key comes from process.env under `next dev` / `next start`. On Cloudflare
+ * Workers it is a secret on the Worker env, which OpenNext exposes through
+ * getCloudflareContext — read that as a fallback so both paths work.
+ */
+async function getResendApiKey(): Promise<string | undefined> {
+  if (process.env.RESEND_API_KEY) return process.env.RESEND_API_KEY;
+  try {
+    const { getCloudflareContext } = await import("@opennextjs/cloudflare");
+    const { env } = await getCloudflareContext({ async: true });
+    return (env as Record<string, string | undefined>).RESEND_API_KEY;
+  } catch {
+    return undefined;
+  }
+}
+
 function buildMailto({ suggestion, name, contact }: SuggestionValues) {
   const from = [name, contact].filter(Boolean).join(" · ");
   const body = `${suggestion}${from ? `\n\n— ${from}` : ""}`;
@@ -60,7 +76,7 @@ export async function sendSuggestion(
     return { status: "error", message: "The suggestion box is not set up yet. Tell us in store instead." };
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
+  const apiKey = await getResendApiKey();
   if (!apiKey) {
     return { status: "unconfigured", mailto: buildMailto(values), values };
   }
