@@ -12,6 +12,8 @@ export type CategoryIcon =
   | "eliquids"
   | "pods"
   | "tanks"
+  | "herbal"
+  | "smokers"
   | "accessories";
 
 export type ProductCategory = {
@@ -71,6 +73,24 @@ export const categories: ProductCategory[] = [
       "Tanks for every draw style, along with replacement glass and seals. Cracked your glass? Bring the tank in so we can match the exact size.",
     icon: "tanks",
     examples: ["Sub-ohm tanks", "MTL tanks", "Replacement glass"],
+  },
+  {
+    slug: "herbal-wellness",
+    name: "Herbal Wellness",
+    blurb: "Hemp and kratom products, with staff who can walk you through them.",
+    description:
+      "A selection of hemp-derived products and kratom. What we carry changes, so ask the counter what is in and they will point you to the right shelf.",
+    icon: "herbal",
+    examples: ["Hemp products", "Kratom", "Ask the counter"],
+  },
+  {
+    slug: "smokers-corner",
+    name: "Smokers Corner",
+    blurb: "Glassware, rolling papers and the smoke accessories to go with them.",
+    description:
+      "Glass pieces, rolling papers, trays, grinders and the rest of the smoke-shop essentials. Come see the glass in person — photos never do it justice.",
+    icon: "smokers",
+    examples: ["Glassware", "Rolling papers", "Grinders & trays"],
   },
   {
     slug: "accessories",

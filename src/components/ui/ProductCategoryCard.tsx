@@ -6,8 +6,10 @@ import {
   Cable,
   Cpu,
   Droplets,
+  Flame,
   FlaskConical,
   Layers,
+  Leaf,
   Zap,
   type LucideIcon,
 } from "lucide-react";
@@ -22,6 +24,8 @@ const ICONS: Record<CategoryIcon, LucideIcon> = {
   eliquids: Droplets,
   pods: Layers,
   tanks: FlaskConical,
+  herbal: Leaf,
+  smokers: Flame,
   accessories: Cable,
 };
 
@@ -44,7 +48,7 @@ export function ProductCategoryCard({
         track("click_product_category", { category: category.slug })
       }
       className={cn(
-        "panel panel-lit panel-hover group relative flex flex-col p-5 sm:p-6",
+        "panel panel-lit panel-hover group relative flex flex-col p-5",
         className,
       )}
     >

@@ -14,7 +14,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Vape Products & Supplies",
   description:
-    "Disposables, devices, e-liquid, pods, coils, tanks and accessories at Vapor Pulse in Irving, TX. Browse what we typically carry, then call to check current availability.",
+    "Disposables, devices, e-liquid, pods, coils, tanks, hemp and kratom, glassware and smoke accessories at Vapor Pulse in Irving, TX. Browse what we typically carry, then call to check current availability.",
   path: "/products",
 });
 
@@ -53,7 +53,7 @@ export default async function ProductsPage() {
         <h2 id="category-index" className="sr-only">
           Product categories
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((category) => (
             <ProductCategoryCard
               key={category.slug}

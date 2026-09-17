@@ -28,7 +28,7 @@ export function CategoriesSection() {
           </Link>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((category) => (
             <ProductCategoryCard key={category.slug} category={category} />
           ))}
