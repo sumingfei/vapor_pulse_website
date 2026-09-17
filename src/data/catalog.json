@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:10:25.853Z",
+  "generatedAt": "2026-09-17T21:46:27.454Z",
   "products": [
     {
       "id": "air-factory-20k-disposable",
@@ -20,16 +20,100 @@
       "image": "/products/disposable-vapes/artery-50k-disposable-transformed.webp"
     },
     {
+      "id": "barista-brew-e-liquid-60ml-6mg-cbs",
+      "name": "Barista Brew E Liquid / 60ml - 6mg CBS",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/barista-brew-e-liquid-60ml-6mg-cbs-transformed.webp"
+    },
+    {
+      "id": "bsx-ice-60ml-6mg-strawnana-ice",
+      "name": "BSX ICE / 60ml - 6mg Strawnana Ice",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/bsx-ice-60ml-6mg-strawnana-ice-transformed.webp"
+    },
+    {
+      "id": "candy-king-100ml-3mg-tropic-chew",
+      "name": "Candy King / 100ml - 3mg Tropic Chew",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/candy-king-100ml-3mg-tropic-chew-transformed.webp"
+    },
+    {
+      "id": "cloud-nurdz-100ml-6mg-watermelon-apple-iced",
+      "name": "Cloud Nurdz / 100ml - 6mg Watermelon Apple ICED",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/cloud-nurdz-100ml-6mg-watermelon-apple-iced-transformed.webp"
+    },
+    {
+      "id": "cloud-nurdz-salt-30ml-25mg-iced-peach-dragonfruit",
+      "name": "Cloud Nurdz SALT / 30ml - 25mg Iced Peach Dragonfruit",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/cloud-nurdz-salt-30ml-25mg-iced-peach-dragonfruit-transformed.webp"
+    },
+    {
+      "id": "coastal-clouds-60ml-6mg-caramel-br-l-e",
+      "name": "Coastal Clouds / 60ml - 6mg Caramel Brûlée",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/coastal-clouds-60ml-6mg-caramel-br-l-e-transformed.webp"
+    },
+    {
+      "id": "coastal-clouds-100ml-3mg-white-clouds",
+      "name": "Coastal Clouds 100ml - 3mg White Clouds",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/coastal-clouds-100ml-3mg-white-clouds-transformed.webp"
+    },
+    {
+      "id": "coastal-clouds-iced-60ml-6mg-apple-watermelon",
+      "name": "Coastal Clouds ICED / 60ml - 6mg Apple Watermelon",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/coastal-clouds-iced-60ml-6mg-apple-watermelon-transformed.webp"
+    },
+    {
+      "id": "coastal-clouds-salt-30ml-35mg-iced-mango-berries",
+      "name": "Coastal Clouds Salt / 30ml - 35mg Iced Mango Berries",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/coastal-clouds-salt-30ml-35mg-iced-mango-berries-transformed.webp"
+    },
+    {
       "id": "cookies-smoke-blaster-vaporizer",
       "name": "Cookies Smoke Blaster Vaporizer",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/cookies-smoke-blaster-vaporizer-transformed.webp"
     },
     {
+      "id": "country-clouds-100ml-3mg-s-c-p",
+      "name": "Country Clouds / 100ml - 3mg S. C. P.",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/country-clouds-100ml-3mg-s-c-p-transformed.webp"
+    },
+    {
+      "id": "custard-monster-100ml-3mg-swirl-blue-vanilla",
+      "name": "Custard Monster / 100ml - 3mg Swirl - Blue Vanilla",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/custard-monster-100ml-3mg-swirl-blue-vanilla-transformed.webp"
+    },
+    {
+      "id": "custard-monster-salt-30ml-48mg-vanilla",
+      "name": "Custard Monster SALT / 30ml - 48mg Vanilla",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/custard-monster-salt-30ml-48mg-vanilla-transformed.webp"
+    },
+    {
+      "id": "cutwood-60ml-3mg-unicorn-milk",
+      "name": "Cutwood / 60ml - 3mg Unicorn Milk",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/cutwood-60ml-3mg-unicorn-milk-transformed.webp"
+    },
+    {
       "id": "digi-flavor-brk",
       "name": "Digi Flavor BRK",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/digi-flavor-brk-transformed.webp"
+    },
+    {
+      "id": "dinner-lady-100ml-6mg-vanilla-tart",
+      "name": "Dinner Lady / 100ml - 6mg Vanilla Tart",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/dinner-lady-100ml-6mg-vanilla-tart-transformed.webp"
     },
     {
       "id": "dinner-lady-50k-disposable",
@@ -60,6 +144,30 @@
       "name": "Foger Switch Flavor Pod [Pod Only]",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/foger-switch-flavor-pod-pod-only-transformed.webp"
+    },
+    {
+      "id": "frozen-fruit-monster-100ml-6mg-mixed-berries",
+      "name": "Frozen Fruit Monster / 100ml - 6mg Mixed Berries",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/frozen-fruit-monster-100ml-6mg-mixed-berries-transformed.webp"
+    },
+    {
+      "id": "frozen-fruit-monster-salt-blueberry-raspberry-lemon-48mg",
+      "name": "Frozen Fruit Monster Salt - Blueberry Raspberry Lemon 48mg",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/frozen-fruit-monster-salt-blueberry-raspberry-lemon-48mg-transformed.webp"
+    },
+    {
+      "id": "fruit-monster-100ml-6mg-mixed-berry",
+      "name": "Fruit Monster / 100ml - 6mg Mixed Berry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/fruit-monster-100ml-6mg-mixed-berry-transformed.webp"
+    },
+    {
+      "id": "fruit-monster-salt-30ml-24mg-blueberry-raspberry-lemon",
+      "name": "Fruit Monster SALT / 30ml - 24mg Blueberry Raspberry Lemon",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/fruit-monster-salt-30ml-24mg-blueberry-raspberry-lemon-transformed.webp"
     },
     {
       "id": "geekbar-clr-50k-disposable",
@@ -116,6 +224,12 @@
       "image": "/products/vape-devices/geekvape-aegis-solo-3-kit-red-transformed.webp"
     },
     {
+      "id": "glas-bassix-60ml-3mg-strawberry-milk",
+      "name": "Glas Bassix / 60ml - 3mg Strawberry Milk",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/glas-bassix-60ml-3mg-strawberry-milk-transformed.webp"
+    },
+    {
       "id": "hi-5-50k-disposable-flavor-pod",
       "name": "Hi 5 50k Disposable Flavor Pod",
       "categorySlug": "disposable-vapes",
@@ -126,6 +240,60 @@
       "name": "Hipster HydroQax Starter Kit - Blue",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/hipster-hydroqax-starter-kit-blue-transformed.webp"
+    },
+    {
+      "id": "innevape-100ml-3mg-mocha-latte",
+      "name": "Innevape / 100ml - 3mg Mocha Latte",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/innevape-100ml-3mg-mocha-latte-transformed.webp"
+    },
+    {
+      "id": "jam-monster-100ml-3mg-pb-j",
+      "name": "Jam Monster / 100ml - 3mg PB & J",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/jam-monster-100ml-3mg-pb-and-j-transformed.webp"
+    },
+    {
+      "id": "johnny-creampuff-100ml-3mg-rapspberry",
+      "name": "Johnny Creampuff / 100ml - 3mg Rapspberry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/johnny-creampuff-100ml-3mg-rapspberry-transformed.webp"
+    },
+    {
+      "id": "juice-head-100ml-3mg-passionfruit-orange-guava",
+      "name": "Juice Head / 100ml - 3mg Passionfruit Orange Guava",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/juice-head-100ml-3mg-passionfruit-orange-guava-transformed.webp"
+    },
+    {
+      "id": "juice-head-desserts-100ml-6mg-cake-batter",
+      "name": "Juice Head Desserts / 100ml - 6mg Cake Batter",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/juice-head-desserts-100ml-6mg-cake-batter-transformed.webp"
+    },
+    {
+      "id": "juice-head-freeze-100ml-3mg-orange-mango",
+      "name": "Juice Head FREEZE / 100ml - 3mg Orange Mango",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/juice-head-freeze-100ml-3mg-orange-mango-transformed.webp"
+    },
+    {
+      "id": "juice-head-salts-30ml-50mg-pineapple-grapefruit",
+      "name": "Juice Head SALTS / 30ml - 50mg Pineapple Grapefruit",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/juice-head-salts-30ml-50mg-pineapple-grapefruit-transformed.webp"
+    },
+    {
+      "id": "lemonade-monster-100ml-6mg-blueberry",
+      "name": "Lemonade Monster / 100ml - 6mg Blueberry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/lemonade-monster-100ml-6mg-blueberry-transformed.webp"
+    },
+    {
+      "id": "lemonade-monster-salts-30ml-48mg-blueberry",
+      "name": "Lemonade Monster SALTS / 30ml - 48mg Blueberry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/lemonade-monster-salts-30ml-48mg-blueberry-transformed.webp"
     },
     {
       "id": "lookah-cat-guitar-510-battery-cat",
@@ -174,6 +342,42 @@
       "name": "Lost Mary Turbo 35k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/lost-mary-turbo-35k-disposable-transformed.webp"
+    },
+    {
+      "id": "naked-100-60ml-3mg-lava-flow",
+      "name": "Naked 100 / 60ml - 3mg Lava Flow",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/naked-100-60ml-3mg-lava-flow-transformed.webp"
+    },
+    {
+      "id": "naked-menthol-60ml-6mg-crisp-menthol",
+      "name": "Naked Menthol / 60ml - 6mg Crisp Menthol",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/naked-menthol-60ml-6mg-crisp-menthol-transformed.webp"
+    },
+    {
+      "id": "naked-salt-30ml-50mg-american-patriots",
+      "name": "Naked Salt / 30ml - 50mg American Patriots",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/naked-salt-30ml-50mg-american-patriots-transformed.webp"
+    },
+    {
+      "id": "naked-salt-menthol-30ml-50mg-strawberry-pom",
+      "name": "Naked Salt Menthol / 30ml - 50mg Strawberry Pom",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/naked-salt-menthol-30ml-50mg-strawberry-pom-transformed.webp"
+    },
+    {
+      "id": "naked-tobacco-60ml-12mg-american-patriots",
+      "name": "Naked Tobacco / 60ml - 12mg American Patriots",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/naked-tobacco-60ml-12mg-american-patriots-transformed.webp"
+    },
+    {
+      "id": "noms-x2-120ml-3mg-watermelon-blackberry",
+      "name": "Noms X2 / 120ml - 3mg Watermelon BlackBerry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/noms-x2-120ml-3mg-watermelon-blackberry-transformed.webp"
     },
     {
       "id": "off-stamp-25k-disposable-pod-crystal-cube",
@@ -236,6 +440,24 @@
       "image": "/products/disposable-vapes/orion-bar-50k-disposable-transformed.webp"
     },
     {
+      "id": "pacha-mama-60ml-3mg-fuji-apple-strawberry",
+      "name": "Pacha Mama / 60ml - 3mg Fuji Apple-Strawberry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/pacha-mama-60ml-3mg-fuji-apple-strawberry-transformed.webp"
+    },
+    {
+      "id": "pacha-mama-salts-30ml-50mg-honeydew-melon",
+      "name": "Pacha Mama SALTS / 30ml - 50mg Honeydew Melon",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/pacha-mama-salts-30ml-50mg-honeydew-melon-transformed.webp"
+    },
+    {
+      "id": "pod-juice-clear",
+      "name": "Pod Juice  - Clear",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/pod-juice-clear-transformed.webp"
+    },
+    {
       "id": "pulsar-range-all-in-1-kit-green",
       "name": "Pulsar Range All-in-1 Kit - Green",
       "categorySlug": "vape-devices",
@@ -246,6 +468,36 @@
       "name": "Raz 25k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/raz-25k-disposable-transformed.webp"
+    },
+    {
+      "id": "sad-boy-100ml-6mg-unicorn-tears",
+      "name": "Sad Boy / 100ml - 6mg Unicorn Tears",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/sad-boy-100ml-6mg-unicorn-tears-transformed.webp"
+    },
+    {
+      "id": "sad-boy-nola-line-100ml-6mg-blueberry",
+      "name": "Sad Boy Nola Line / 100ml - 6mg Blueberry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/sad-boy-nola-line-100ml-6mg-blueberry-transformed.webp"
+    },
+    {
+      "id": "skwezed-100ml-6mg-kiwi-strawberry",
+      "name": "Skwezed / 100ml - 6mg Kiwi Strawberry",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/skwezed-100ml-6mg-kiwi-strawberry-transformed.webp"
+    },
+    {
+      "id": "skwezed-on-ice-100ml-3mg-watermelon",
+      "name": "Skwezed ON ICE / 100ml - 3mg Watermelon",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/skwezed-on-ice-100ml-3mg-watermelon-transformed.webp"
+    },
+    {
+      "id": "skwezed-salts-30ml-50mg-mint",
+      "name": "Skwezed Salts / 30ml - 50mg Mint",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/skwezed-salts-30ml-50mg-mint-transformed.webp"
     },
     {
       "id": "smok-spaceman-20k-disposable",
@@ -284,6 +536,30 @@
       "image": "/products/vape-devices/strio-fly-high-thread-battery-red-transformed.webp"
     },
     {
+      "id": "the-milk-100ml-3mg-cinnamon",
+      "name": "The Milk / 100ml - 3mg Cinnamon",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/the-milk-100ml-3mg-cinnamon-transformed.webp"
+    },
+    {
+      "id": "the-milk-salts-30ml-24mg-jax",
+      "name": "The Milk SALTS / 30ml - 24mg Jax",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/the-milk-salts-30ml-24mg-jax-transformed.webp"
+    },
+    {
+      "id": "the-one-100ml-3mg-milky-loops",
+      "name": "The One / 100ml - 3mg Milky Loops",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/the-one-100ml-3mg-milky-loops-transformed.webp"
+    },
+    {
+      "id": "twist-salt-30ml-50mh-purple-no-1",
+      "name": "Twist Salt / 30ml - 50mh Purple No.1",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/twist-salt-30ml-50mh-purple-no-1-transformed.webp"
+    },
+    {
       "id": "uno-nine-30k-disposable-flavor-pod",
       "name": "Uno Nine 30k Disposable Flavor Pod",
       "categorySlug": "disposable-vapes",
@@ -294,6 +570,36 @@
       "name": "Uno Nine 30k Disposable Starter Kit",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/uno-nine-30k-disposable-starter-kit-transformed.webp"
+    },
+    {
+      "id": "vapetasia-100ml-3mg-killer-kustard",
+      "name": "Vapetasia / 100ml - 3mg Killer Kustard",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/vapetasia-100ml-3mg-killer-kustard-transformed.webp"
+    },
+    {
+      "id": "vapetasia-killer-fruits-100ml-6mg-blue-razz-ice",
+      "name": "Vapetasia Killer Fruits / 100ml - 6mg Blue Razz Ice",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/vapetasia-killer-fruits-100ml-6mg-blue-razz-ice-transformed.webp"
+    },
+    {
+      "id": "vapetasia-killer-sweets-100ml-3mg-watermelon-gummy-ice",
+      "name": "Vapetasia Killer Sweets / 100ml - 3mg Watermelon Gummy Ice",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/vapetasia-killer-sweets-100ml-3mg-watermelon-gummy-ice-transformed.webp"
+    },
+    {
+      "id": "vapetasia-salt-30ml-50mg-watermelon-gummy",
+      "name": "Vapetasia SALT / 30ml - 50mg Watermelon Gummy",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/vapetasia-salt-30ml-50mg-watermelon-gummy-transformed.webp"
+    },
+    {
+      "id": "vgod-salts-50mg-mighty-mint",
+      "name": "VGOD SALTS - 50mg Mighty Mint",
+      "categorySlug": "e-liquids",
+      "image": "/products/e-liquids/vgod-salts-50mg-mighty-mint-transformed.webp"
     },
     {
       "id": "x-posed-35k-disposable-pod-battery",
