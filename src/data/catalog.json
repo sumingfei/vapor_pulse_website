@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:54:44.584Z",
+  "generatedAt": "2026-09-17T18:10:25.853Z",
   "products": [
     {
       "id": "air-factory-20k-disposable",
@@ -18,6 +18,12 @@
       "name": "Artery 50k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/artery-50k-disposable-transformed.webp"
+    },
+    {
+      "id": "cookies-smoke-blaster-vaporizer",
+      "name": "Cookies Smoke Blaster Vaporizer",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/cookies-smoke-blaster-vaporizer-transformed.webp"
     },
     {
       "id": "digi-flavor-brk",
@@ -98,10 +104,52 @@
       "image": "/products/disposable-vapes/geekbar-pulse-x2-50k-disposable-transformed.webp"
     },
     {
+      "id": "geekvape-aegis-hero-5-starter-kit-racing-blue",
+      "name": "Geekvape Aegis Hero 5 Starter Kit - Racing Blue",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/geekvape-aegis-hero-5-starter-kit-racing-blue-transformed.webp"
+    },
+    {
+      "id": "geekvape-aegis-solo-3-kit-red",
+      "name": "Geekvape Aegis Solo 3 Kit - Red",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/geekvape-aegis-solo-3-kit-red-transformed.webp"
+    },
+    {
       "id": "hi-5-50k-disposable-flavor-pod",
       "name": "Hi 5 50k Disposable Flavor Pod",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/hi-5-50k-disposable-flavor-pod-transformed.webp"
+    },
+    {
+      "id": "hipster-hydroqax-starter-kit-blue",
+      "name": "Hipster HydroQax Starter Kit - Blue",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/hipster-hydroqax-starter-kit-blue-transformed.webp"
+    },
+    {
+      "id": "lookah-cat-guitar-510-battery-cat",
+      "name": "Lookah Cat / Guitar 510 Battery - Cat",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/lookah-cat-guitar-510-battery-cat-transformed.webp"
+    },
+    {
+      "id": "lookah-dragon-egg-starter-kit-blue",
+      "name": "Lookah Dragon Egg Starter Kit  - Blue",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/lookah-dragon-egg-starter-kit-blue-transformed.webp"
+    },
+    {
+      "id": "lookah-seahorse-queen-kit-black",
+      "name": "Lookah Seahorse QUEEN Kit - Black",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/lookah-seahorse-queen-kit-black-transformed.webp"
+    },
+    {
+      "id": "lookah-turtle-510-cartridge-battery-purple",
+      "name": "Lookah Turtle 510 Cartridge Battery - Purple",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/lookah-turtle-510-cartridge-battery-purple-transformed.webp"
     },
     {
       "id": "losgal-25k-puff-disposable",
@@ -158,10 +206,40 @@
       "image": "/products/disposable-vapes/olit-hookah-plus-100k-disposable-transformed.webp"
     },
     {
+      "id": "ooze-bangarang-green-black",
+      "name": "Ooze Bangarang  - Green Black",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/ooze-bangarang-green-black-transformed.webp"
+    },
+    {
+      "id": "ooze-drought-dry-herb-kit-orange",
+      "name": "Ooze Drought Dry Herb Kit - Orange",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/ooze-drought-dry-herb-kit-orange-transformed.webp"
+    },
+    {
+      "id": "ooze-slugger-travel-kit-green",
+      "name": "Ooze Slugger Travel Kit - Green",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/ooze-slugger-travel-kit-green-transformed.webp"
+    },
+    {
+      "id": "ooze-vault-concentrate-kit-green",
+      "name": "Ooze Vault Concentrate Kit - Green",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/ooze-vault-concentrate-kit-green-transformed.webp"
+    },
+    {
       "id": "orion-bar-50k-disposable",
       "name": "Orion Bar 50k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/orion-bar-50k-disposable-transformed.webp"
+    },
+    {
+      "id": "pulsar-range-all-in-1-kit-green",
+      "name": "Pulsar Range All-in-1 Kit - Green",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/pulsar-range-all-in-1-kit-green-transformed.webp"
     },
     {
       "id": "raz-25k-disposable",
@@ -182,6 +260,30 @@
       "image": "/products/disposable-vapes/space-pulse-30k-disposable-zero-nicotine-transformed.webp"
     },
     {
+      "id": "strio-bolt-cartridge-device-super",
+      "name": "Strio Bolt Cartridge Device - Super",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/strio-bolt-cartridge-device-super-transformed.webp"
+    },
+    {
+      "id": "strio-cart-box-orange",
+      "name": "Strio Cart Box - Orange",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/strio-cart-box-orange-transformed.webp"
+    },
+    {
+      "id": "strio-flowerboy-starter-kit-pink",
+      "name": "Strio Flowerboy Starter Kit - Pink",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/strio-flowerboy-starter-kit-pink-transformed.webp"
+    },
+    {
+      "id": "strio-fly-high-thread-battery-red",
+      "name": "Strio FLY HIGH Thread Battery - Red",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/strio-fly-high-thread-battery-red-transformed.webp"
+    },
+    {
       "id": "uno-nine-30k-disposable-flavor-pod",
       "name": "Uno Nine 30k Disposable Flavor Pod",
       "categorySlug": "disposable-vapes",
@@ -198,6 +300,12 @@
       "name": "X-posed 35k Disposable [Pod + Battery]",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/x-posed-35k-disposable-pod-battery-transformed.webp"
+    },
+    {
+      "id": "yocan-vane-herbal-vaporizer-red",
+      "name": "Yocan VANE Herbal Vaporizer  - Red",
+      "categorySlug": "vape-devices",
+      "image": "/products/vape-devices/yocan-vane-herbal-vaporizer-red-transformed.webp"
     }
   ]
 }
