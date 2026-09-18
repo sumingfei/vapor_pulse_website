@@ -29,17 +29,24 @@ export function RatingBadge({
   const text = (
     <>
       <span className="flex items-center gap-0.5" aria-hidden>
-        {Array.from({ length: 5 }).map((_, i) => (
-          <Star
-            key={i}
-            className={cn(
-              size === "sm" ? "size-3.5" : "size-4",
-              i < Math.floor(rating.value)
-                ? "fill-amber-400 text-amber-400"
-                : "fill-amber-400/40 text-amber-400/40",
-            )}
-          />
-        ))}
+        {Array.from({ length: 5 }).map((_, i) => {
+          // Fraction of this star to light up: 4.8 → 1,1,1,1,0.8.
+          const fill = Math.min(Math.max(rating.value - i, 0), 1);
+          const starSize = size === "sm" ? "size-3.5" : "size-4";
+          return (
+            <span key={i} className={cn("relative", starSize)}>
+              <Star className={cn(starSize, "fill-amber-400/40 text-amber-400/40")} />
+              {fill > 0 && (
+                <span
+                  className="absolute inset-0 overflow-hidden"
+                  style={{ width: `${fill * 100}%` }}
+                >
+                  <Star className={cn(starSize, "fill-amber-400 text-amber-400")} />
+                </span>
+              )}
+            </span>
+          );
+        })}
       </span>
       <span className="text-fog-50 font-semibold">{rating.value}</span>
       <span className="text-fog-400">
