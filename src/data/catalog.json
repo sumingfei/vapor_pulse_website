@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-09-18T04:28:38.281Z",
+  "generatedAt": "2026-09-18T04:55:11.466Z",
   "products": [
+    {
+      "id": "4k-ciagarillos-white-grape",
+      "name": "4k Ciagarillos - White Grape",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/4k-ciagarillos-white-grape-transformed.webp"
+    },
+    {
+      "id": "adaya-shisha-tobacco-250g",
+      "name": "Adaya Shisha Tobacco 250g",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/adaya-shisha-tobacco-250g-transformed.webp"
+    },
     {
       "id": "aegis-replacement-cartridge",
       "name": "Aegis Replacement Cartridge",
@@ -12,6 +24,18 @@
       "name": "Air Factory 20k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/air-factory-20k-disposable-transformed.webp"
+    },
+    {
+      "id": "al-fakher-shisha-tobacco-250g",
+      "name": "Al Fakher Shisha Tobacco 250g",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/al-fakher-shisha-tobacco-250g-transformed.webp"
+    },
+    {
+      "id": "al-fakher-shisha-tobacco-50g",
+      "name": "Al Fakher Shisha Tobacco 50g",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/al-fakher-shisha-tobacco-50g-transformed.webp"
     },
     {
       "id": "amigos-50mg-thc-beverage-grape",
@@ -32,6 +56,12 @@
       "image": "/products/disposable-vapes/artery-50k-disposable-transformed.webp"
     },
     {
+      "id": "b-y-o-ceramic-hookah-bowl-large",
+      "name": "B Y O Ceramic Hookah Bowl - Large",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/b-y-o-ceramic-hookah-bowl-large-transformed.webp"
+    },
+    {
       "id": "barista-brew-e-liquid-60ml-6mg-cbs",
       "name": "Barista Brew E Liquid / 60ml - 6mg CBS",
       "categorySlug": "e-liquids",
@@ -48,6 +78,24 @@
       "name": "Blanco Chapo Double Stacks Gummy [1 Piece] - Hybrid",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/blanco-chapo-double-stacks-gummy-1-piece-hybrid-transformed.webp"
+    },
+    {
+      "id": "blazy-susan-empty-cone-3-pk",
+      "name": "Blazy Susan Empty Cone (3 pk)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/blazy-susan-empty-cone-3-pk-transformed.webp"
+    },
+    {
+      "id": "blazy-susan-empty-cone-6pk",
+      "name": "Blazy Susan Empty Cone (6pk)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/blazy-susan-empty-cone-6pk-transformed.webp"
+    },
+    {
+      "id": "blazy-susan-shortys",
+      "name": "Blazy Susan Shortys",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/blazy-susan-shortys-transformed.webp"
     },
     {
       "id": "bsx-ice-60ml-6mg-strawnana-ice",
@@ -104,6 +152,12 @@
       "image": "/products/pods-and-coils/caliburn-g2-empty-pod-transformed.webp"
     },
     {
+      "id": "camo-natural-leaf-wraps-5-pack",
+      "name": "CAMO Natural Leaf Wraps (5 pack)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/camo-natural-leaf-wraps-5-pack-transformed.webp"
+    },
+    {
       "id": "candy-king-100ml-3mg-tropic-chew",
       "name": "Candy King / 100ml - 3mg Tropic Chew",
       "categorySlug": "e-liquids",
@@ -122,10 +176,22 @@
       "image": "/products/herbal-wellness/chapo-supermax-5000mg-gummies-watermelon-candy-transformed.webp"
     },
     {
+      "id": "cheech-chong-incense-100pk-flower-power",
+      "name": "Cheech & Chong Incense [100pk] - Flower Power",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/cheech-and-chong-incense-100pk-flower-power-transformed.webp"
+    },
+    {
       "id": "chonged-thc-shot-sativa",
       "name": "Chonged THC Shot - Sativa",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/chonged-thc-shot-sativa-transformed.webp"
+    },
+    {
+      "id": "clipper-lighter",
+      "name": "Clipper Lighter",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/clipper-lighter-transformed.webp"
     },
     {
       "id": "cloud-nurdz-100ml-6mg-watermelon-apple-iced",
@@ -164,6 +230,18 @@
       "image": "/products/e-liquids/coastal-clouds-salt-30ml-35mg-iced-mango-berries-transformed.webp"
     },
     {
+      "id": "coco-nara-charcoal-120pc",
+      "name": "Coco Nara Charcoal - 120pc",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/coco-nara-charcoal-120pc-transformed.webp"
+    },
+    {
+      "id": "cone-artist",
+      "name": "Cone Artist",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/cone-artist-transformed.webp"
+    },
+    {
       "id": "cookies-smoke-blaster-vaporizer",
       "name": "Cookies Smoke Blaster Vaporizer",
       "categorySlug": "vape-devices",
@@ -192,6 +270,18 @@
       "name": "Cutwood / 60ml - 3mg Unicorn Milk",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/cutwood-60ml-3mg-unicorn-milk-transformed.webp"
+    },
+    {
+      "id": "cyclone-hemp-cones-2pk-natural",
+      "name": "Cyclone Hemp Cones [2pk] - Natural",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/cyclone-hemp-cones-2pk-natural-transformed.webp"
+    },
+    {
+      "id": "deco-rayz-torch",
+      "name": "Deco Rayz Torch",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/deco-rayz-torch-transformed.webp"
     },
     {
       "id": "digi-flavor-brk",
@@ -224,6 +314,12 @@
       "image": "/products/herbal-wellness/drizzle-d9-50mg-beverage-peach-mango-transformed.webp"
     },
     {
+      "id": "eagle-torch-butane-lighter",
+      "name": "Eagle Torch Butane Lighter",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/eagle-torch-butane-lighter-transformed.webp"
+    },
+    {
       "id": "electric-lemonade-150mg-thc-beverage-lemonade",
       "name": "Electric Lemonade 150mg THC Beverage - Lemonade",
       "categorySlug": "herbal-wellness",
@@ -242,6 +338,18 @@
       "image": "/products/disposable-vapes/fifty-bar-20k-disposable-transformed.webp"
     },
     {
+      "id": "flying-papers-1-1-4-cones",
+      "name": "Flying Papers 1 1/4 Cones",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/flying-papers-1-1-4-cones-transformed.webp"
+    },
+    {
+      "id": "flying-papers-king-size-cone",
+      "name": "Flying Papers King Size Cone",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/flying-papers-king-size-cone-transformed.webp"
+    },
+    {
       "id": "foger-replacement-battery-single-battery",
       "name": "Foger Replacement Battery ( Single Battery )",
       "categorySlug": "disposable-vapes",
@@ -258,6 +366,18 @@
       "name": "Foger Switch Flavor Pod [Pod Only]",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/foger-switch-flavor-pod-pod-only-transformed.webp"
+    },
+    {
+      "id": "formula-420-glass-cleaner-12oz",
+      "name": "Formula 420 Glass Cleaner - 12oz",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/formula-420-glass-cleaner-12oz-transformed.webp"
+    },
+    {
+      "id": "formula-710-advanced-glass-cleaner-16oz",
+      "name": "Formula 710 Advanced Glass Cleaner - 16oz",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/formula-710-advanced-glass-cleaner-16oz-transformed.webp"
     },
     {
       "id": "freemax-coils-m3-mesh",
@@ -476,6 +596,12 @@
       "image": "/products/herbal-wellness/hazy-mary-diamond-donut-pre-roll-2g-hybrid-transformed.webp"
     },
     {
+      "id": "hempire-wraps-4-pack",
+      "name": "Hempire WRAPS (4 pack)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/hempire-wraps-4-pack-transformed.webp"
+    },
+    {
       "id": "herbal-clean-q-carbo-detox-orange",
       "name": "Herbal Clean Q Carbo Detox - Orange",
       "categorySlug": "herbal-wellness",
@@ -488,10 +614,34 @@
       "image": "/products/disposable-vapes/hi-5-50k-disposable-flavor-pod-transformed.webp"
     },
     {
+      "id": "high-hemp-herbal-wraps",
+      "name": "High Hemp Herbal Wraps",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/high-hemp-herbal-wraps-transformed.webp"
+    },
+    {
+      "id": "high-tea-leaf-wraps-pure-peach",
+      "name": "High Tea Leaf Wraps - Pure Peach",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/high-tea-leaf-wraps-pure-peach-transformed.webp"
+    },
+    {
       "id": "hipster-hydroqax-starter-kit-blue",
       "name": "Hipster HydroQax Starter Kit - Blue",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/hipster-hydroqax-starter-kit-blue-transformed.webp"
+    },
+    {
+      "id": "hookah-bowls-silicon-screen",
+      "name": "Hookah Bowls - Silicon / Screen",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/hookah-bowls-silicon-screen-transformed.webp"
+    },
+    {
+      "id": "hookah-tubes",
+      "name": "Hookah Tubes",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/hookah-tubes-transformed.webp"
     },
     {
       "id": "horizon-tech-sakerz-coils-2in1-mesh",
@@ -542,10 +692,34 @@
       "image": "/products/e-liquids/juice-head-salts-30ml-50mg-pineapple-grapefruit-transformed.webp"
     },
     {
+      "id": "juicy-j-jones-cones-2ok-blueberry-jones",
+      "name": "Juicy J Jones Cones [2ok] - Blueberry Jones",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/juicy-j-jones-cones-2ok-blueberry-jones-transformed.webp"
+    },
+    {
       "id": "just-cbd-pets-peanut-butter",
       "name": "Just CBD Pets - Peanut Butter",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/just-cbd-pets-peanut-butter-transformed.webp"
+    },
+    {
+      "id": "king-palm-crown-cookies-wrap",
+      "name": "King Palm Crown Cookies Wrap",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/king-palm-crown-cookies-wrap-transformed.webp"
+    },
+    {
+      "id": "king-palm-hemp-cones-6-pack-1g-lil-lemon",
+      "name": "King Palm HEMP Cones (6-Pack 1g) - Lil Lemon",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/king-palm-hemp-cones-6-pack-1g-lil-lemon-transformed.webp"
+    },
+    {
+      "id": "kong-cbd-hemp-wraps",
+      "name": "Kong CBD+ Hemp Wraps",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/kong-cbd-hemp-wraps-transformed.webp"
     },
     {
       "id": "krazy-lion-3-pack-preroll-hybrid",
@@ -728,6 +902,12 @@
       "image": "/products/pods-and-coils/obs-cotton-coil-cube-kit-transformed.webp"
     },
     {
+      "id": "odor-killa",
+      "name": "Odor Killa",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/odor-killa-transformed.webp"
+    },
+    {
       "id": "off-stamp-25k-disposable-pod-crystal-cube",
       "name": "Off Stamp 25k Disposable Pod [Crystal Cube]",
       "categorySlug": "disposable-vapes",
@@ -770,6 +950,12 @@
       "image": "/products/vape-devices/ooze-drought-dry-herb-kit-orange-transformed.webp"
     },
     {
+      "id": "ooze-glass-geode-container",
+      "name": "Ooze Glass Geode Container",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/ooze-glass-geode-container-transformed.webp"
+    },
+    {
       "id": "ooze-slugger-travel-kit-green",
       "name": "Ooze Slugger Travel Kit - Green",
       "categorySlug": "vape-devices",
@@ -806,6 +992,12 @@
       "image": "/products/e-liquids/pacha-mama-salts-30ml-50mg-honeydew-melon-transformed.webp"
     },
     {
+      "id": "piece-water-cleaning-solution",
+      "name": "Piece Water Cleaning Solution",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/piece-water-cleaning-solution-transformed.webp"
+    },
+    {
       "id": "pod-juice-clear",
       "name": "Pod Juice - Clear",
       "categorySlug": "e-liquids",
@@ -824,10 +1016,58 @@
       "image": "/products/herbal-wellness/quick-fix-transformed.webp"
     },
     {
+      "id": "raw-1-1-4-rolling-paper-500ct",
+      "name": "RAW 1 1/4 Rolling Paper (500ct)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-1-1-4-rolling-paper-500ct-transformed.webp"
+    },
+    {
       "id": "raw-black-doormat",
       "name": "Raw Black Doormat",
       "categorySlug": "accessories",
       "image": "/products/accessories/raw-black-doormat-transformed.webp"
+    },
+    {
+      "id": "raw-boosted-cone-sundae-driver",
+      "name": "Raw BOOSTED Cone - Sundae Driver",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-boosted-cone-sundae-driver-transformed.webp"
+    },
+    {
+      "id": "raw-cones-20pk-both-size",
+      "name": "Raw Cones [20pk] [Both Size]",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-cones-20pk-both-size-transformed.webp"
+    },
+    {
+      "id": "raw-hempwick-100ft",
+      "name": "RAW HempWick 100ft",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-hempwick-100ft-transformed.webp"
+    },
+    {
+      "id": "raw-hempwick-10ft",
+      "name": "RAW HempWick 10ft",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-hempwick-10ft-transformed.webp"
+    },
+    {
+      "id": "raw-king-size-cone",
+      "name": "Raw King Size Cone",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-king-size-cone-transformed.webp"
+    },
+    {
+      "id": "raw-single-size-cone-20-pack",
+      "name": "RAW Single Size Cone [20 pack]",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-single-size-cone-20-pack-transformed.webp"
+    },
+    {
+      "id": "raw-terp-spray-orange-soda",
+      "name": "Raw Terp Spray - Orange Soda",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/raw-terp-spray-orange-soda-transformed.webp"
     },
     {
       "id": "raw-time-clock",
@@ -860,6 +1100,18 @@
       "image": "/products/e-liquids/sad-boy-nola-line-100ml-6mg-blueberry-transformed.webp"
     },
     {
+      "id": "scorch-torch-lighter",
+      "name": "Scorch Torch Lighter",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/scorch-torch-lighter-transformed.webp"
+    },
+    {
+      "id": "scorch-torch-lighter-small",
+      "name": "Scorch Torch Lighter (Small)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/scorch-torch-lighter-small-transformed.webp"
+    },
+    {
       "id": "seahorse-pro-coils-quartz",
       "name": "Seahorse Pro Coils - Quartz",
       "categorySlug": "pods-and-coils",
@@ -870,6 +1122,12 @@
       "name": "Sherpa THC Baked Krisps 25MG - Singles - Cookies & Cream",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/sherpa-thc-baked-krisps-25mg-singles-cookies-and-cream-transformed.webp"
+    },
+    {
+      "id": "skunk-brand-hemp-wraps",
+      "name": "Skunk Brand Hemp Wraps",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/skunk-brand-hemp-wraps-transformed.webp"
     },
     {
       "id": "skwezed-100ml-6mg-kiwi-strawberry",
@@ -1046,6 +1304,18 @@
       "image": "/products/pods-and-coils/smok-vape-pen-v2-coils-dc-6-transformed.webp"
     },
     {
+      "id": "smoke-odor-candle-flower-power",
+      "name": "Smoke Odor Candle - Flower Power",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/smoke-odor-candle-flower-power-transformed.webp"
+    },
+    {
+      "id": "smoke-odor-spray-patchouli-amber",
+      "name": "Smoke Odor Spray - Patchouli Amber",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/smoke-odor-spray-patchouli-amber-transformed.webp"
+    },
+    {
       "id": "snacks-hi-chew",
       "name": "Snacks - Hi-Chew",
       "categorySlug": "accessories",
@@ -1094,6 +1364,12 @@
       "image": "/products/vape-devices/strio-fly-high-thread-battery-red-transformed.webp"
     },
     {
+      "id": "strio-smell-proof-fanny-blue",
+      "name": "Strio Smell Proof Fanny - Blue",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/strio-smell-proof-fanny-blue-transformed.webp"
+    },
+    {
       "id": "suorin-air-mod-empty-pod",
       "name": "Suorin Air Mod Empty Pod",
       "categorySlug": "pods-and-coils",
@@ -1110,6 +1386,18 @@
       "name": "Suorin Replacement Pods - Edge Pod",
       "categorySlug": "pods-and-coils",
       "image": "/products/pods-and-coils/suorin-replacement-pods-edge-pod-transformed.webp"
+    },
+    {
+      "id": "swisher-sweet-minis-3pk-island-bash",
+      "name": "Swisher Sweet Minis [3pk] - Island Bash",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/swisher-sweet-minis-3pk-island-bash-transformed.webp"
+    },
+    {
+      "id": "swisher-sweets-classic-2-pk-cookies-n-cream",
+      "name": "Swisher Sweets Classic [2 pk] - Cookies N Cream",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/swisher-sweets-classic-2-pk-cookies-n-cream-transformed.webp"
     },
     {
       "id": "taylor-nicole-fragrances-spiced-rose",
@@ -1142,10 +1430,22 @@
       "image": "/products/e-liquids/the-one-100ml-3mg-milky-loops-transformed.webp"
     },
     {
+      "id": "three-kings-charcoal-33mm",
+      "name": "Three Kings Charcoal - 33mm",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/three-kings-charcoal-33mm-transformed.webp"
+    },
+    {
       "id": "twist-salt-30ml-50mh-purple-no-1",
       "name": "Twist Salt / 30ml - 50mh Purple No.1",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/twist-salt-30ml-50mh-purple-no-1-transformed.webp"
+    },
+    {
+      "id": "tyson-ranch-rolling-papers",
+      "name": "Tyson Ranch Rolling Papers",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/tyson-ranch-rolling-papers-transformed.webp"
     },
     {
       "id": "uno-nine-30k-disposable-flavor-pod",
@@ -1280,6 +1580,12 @@
       "image": "/products/e-liquids/vgod-salts-50mg-mighty-mint-transformed.webp"
     },
     {
+      "id": "vibes-pre-rolled-cones-king-size-3-pk",
+      "name": "VIBES Pre Rolled Cones - King Size (3 Pk)",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/vibes-pre-rolled-cones-king-size-3-pk-transformed.webp"
+    },
+    {
       "id": "voopoo-coils-uforce-n3",
       "name": "VooPoo Coils - Uforce N3",
       "categorySlug": "pods-and-coils",
@@ -1302,6 +1608,12 @@
       "name": "VooPoo Vinci Q Pods - .8 Mesh",
       "categorySlug": "pods-and-coils",
       "image": "/products/pods-and-coils/voopoo-vinci-q-pods-8-mesh-transformed.webp"
+    },
+    {
+      "id": "whip-it-butane-premium",
+      "name": "Whip It Butane PREMIUM",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/whip-it-butane-premium-transformed.webp"
     },
     {
       "id": "wyld-250mg-cbd-gummies-raspberry",
@@ -1350,6 +1662,36 @@
       "name": "Yocan VANE Herbal Vaporizer - Red",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/yocan-vane-herbal-vaporizer-red-transformed.webp"
+    },
+    {
+      "id": "zengaz-refillable-lighter",
+      "name": "Zengaz Refillable Lighter",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/zengaz-refillable-lighter-transformed.webp"
+    },
+    {
+      "id": "zig-zag-cones-3-pk-king-size",
+      "name": "Zig Zag Cones - 3-PK King Size",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/zig-zag-cones-3-pk-king-size-transformed.webp"
+    },
+    {
+      "id": "zig-zag-hemp-wraps",
+      "name": "Zig Zag HEMP WRAPS",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/zig-zag-hemp-wraps-transformed.webp"
+    },
+    {
+      "id": "zig-zag-slow-burning-papers-1-1-4",
+      "name": "Zig Zag SLOW BURNING Papers - 1 1/4",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/zig-zag-slow-burning-papers-1-1-4-transformed.webp"
+    },
+    {
+      "id": "zig-zag-ultra-thin-cones-1-1-4",
+      "name": "Zig zag ULTRA THIN Cones - 1 1/4",
+      "categorySlug": "smokers-corner",
+      "image": "/products/smokers-corner/zig-zag-ultra-thin-cones-1-1-4-transformed.webp"
     }
   ]
 }
