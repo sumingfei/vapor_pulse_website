@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:46:27.454Z",
+  "generatedAt": "2026-09-18T02:50:57.606Z",
   "products": [
     {
       "id": "air-factory-20k-disposable",
@@ -224,6 +224,12 @@
       "image": "/products/vape-devices/geekvape-aegis-solo-3-kit-red-transformed.webp"
     },
     {
+      "id": "geekvape-zeus-sub-tank-rainbow",
+      "name": "GeekVape Zeus Sub Tank - Rainbow",
+      "categorySlug": "tanks",
+      "image": "/products/tanks/geekvape-zeus-sub-tank-rainbow-transformed.webp"
+    },
+    {
       "id": "glas-bassix-60ml-3mg-strawberry-milk",
       "name": "Glas Bassix / 60ml - 3mg Strawberry Milk",
       "categorySlug": "e-liquids",
@@ -303,7 +309,7 @@
     },
     {
       "id": "lookah-dragon-egg-starter-kit-blue",
-      "name": "Lookah Dragon Egg Starter Kit  - Blue",
+      "name": "Lookah Dragon Egg Starter Kit - Blue",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/lookah-dragon-egg-starter-kit-blue-transformed.webp"
     },
@@ -411,7 +417,7 @@
     },
     {
       "id": "ooze-bangarang-green-black",
-      "name": "Ooze Bangarang  - Green Black",
+      "name": "Ooze Bangarang - Green Black",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/ooze-bangarang-green-black-transformed.webp"
     },
@@ -453,7 +459,7 @@
     },
     {
       "id": "pod-juice-clear",
-      "name": "Pod Juice  - Clear",
+      "name": "Pod Juice - Clear",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/pod-juice-clear-transformed.webp"
     },
@@ -609,7 +615,7 @@
     },
     {
       "id": "yocan-vane-herbal-vaporizer-red",
-      "name": "Yocan VANE Herbal Vaporizer  - Red",
+      "name": "Yocan VANE Herbal Vaporizer - Red",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/yocan-vane-herbal-vaporizer-red-transformed.webp"
     }

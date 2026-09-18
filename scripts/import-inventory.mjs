@@ -36,7 +36,7 @@ const CATEGORY_SLUGS = {
  * Categories published on the site. Add a label here to start showing that
  * category's products; everything else in the export is skipped.
  */
-const PUBLISHED_CATEGORIES = new Set(["Disposable Vapes", "Vape Devices", "E-Liquids"]);
+const PUBLISHED_CATEGORIES = new Set(["Disposable Vapes", "Vape Devices", "E-Liquids", "Tanks"]);
 
 /**
  * When true, and a "<name>-transformed.<ext>" file exists next to the image the
@@ -122,7 +122,8 @@ for (const file of csvFiles) {
   }
 
   for (const line of lines) {
-    const name = (line[col.Item] ?? "").trim();
+    // Collapse runs of whitespace — POS exports often carry double spaces.
+    const name = (line[col.Item] ?? "").trim().replace(/\s+/g, " ");
     const category = (line[col.Category] ?? "").trim();
     const imagePath = (line[col.ImageLocation] ?? "").trim();
     if (!name) continue;
