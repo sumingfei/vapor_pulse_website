@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:10:08.267Z",
+  "generatedAt": "2026-09-18T04:28:38.281Z",
   "products": [
     {
       "id": "aegis-replacement-cartridge",
@@ -228,6 +228,12 @@
       "name": "Electric Lemonade 150mg THC Beverage - Lemonade",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/electric-lemonade-150mg-thc-beverage-lemonade-transformed.webp"
+    },
+    {
+      "id": "fidget-squishies-press-gyroball",
+      "name": "Fidget / Squishies - Press Gyroball",
+      "categorySlug": "accessories",
+      "image": "/products/accessories/fidget-squishies-press-gyroball-transformed.webp"
     },
     {
       "id": "fifty-bar-20k-disposable",
@@ -566,6 +572,12 @@
       "image": "/products/e-liquids/lemonade-monster-salts-30ml-48mg-blueberry-transformed.webp"
     },
     {
+      "id": "lg-hg2-18650",
+      "name": "LG HG2 18650",
+      "categorySlug": "accessories",
+      "image": "/products/accessories/lg-hg2-18650-transformed.webp"
+    },
+    {
       "id": "limitless-hydroxy-black-500mg-blue-razz",
       "name": "Limitless Hydroxy Black (500MG) - Blue Razz",
       "categorySlug": "herbal-wellness",
@@ -812,6 +824,18 @@
       "image": "/products/herbal-wellness/quick-fix-transformed.webp"
     },
     {
+      "id": "raw-black-doormat",
+      "name": "Raw Black Doormat",
+      "categorySlug": "accessories",
+      "image": "/products/accessories/raw-black-doormat-transformed.webp"
+    },
+    {
+      "id": "raw-time-clock",
+      "name": "Raw Time Clock",
+      "categorySlug": "accessories",
+      "image": "/products/accessories/raw-time-clock-transformed.webp"
+    },
+    {
       "id": "raz-25k-disposable",
       "name": "Raz 25k Disposable",
       "categorySlug": "disposable-vapes",
@@ -1022,6 +1046,12 @@
       "image": "/products/pods-and-coils/smok-vape-pen-v2-coils-dc-6-transformed.webp"
     },
     {
+      "id": "snacks-hi-chew",
+      "name": "Snacks - Hi-Chew",
+      "categorySlug": "accessories",
+      "image": "/products/accessories/snacks-hi-chew-transformed.webp"
+    },
+    {
       "id": "snoozy-20ct-gummies-sleep-benefit-17mg",
       "name": "Snoozy 20ct Gummies - Sleep Benefit - 17mg",
       "categorySlug": "herbal-wellness",
@@ -1080,6 +1110,12 @@
       "name": "Suorin Replacement Pods - Edge Pod",
       "categorySlug": "pods-and-coils",
       "image": "/products/pods-and-coils/suorin-replacement-pods-edge-pod-transformed.webp"
+    },
+    {
+      "id": "taylor-nicole-fragrances-spiced-rose",
+      "name": "Taylor Nicole Fragrances - Spiced Rose",
+      "categorySlug": "accessories",
+      "image": "/products/accessories/taylor-nicole-fragrances-spiced-rose-transformed.webp"
     },
     {
       "id": "tfv16-lite-coils-dual-mesh",

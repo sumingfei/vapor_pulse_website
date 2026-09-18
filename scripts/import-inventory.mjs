@@ -37,7 +37,7 @@ const CATEGORY_SLUGS = {
  * Categories published on the site. Add a label here to start showing that
  * category's products; everything else in the export is skipped.
  */
-const PUBLISHED_CATEGORIES = new Set(["Disposable Vapes", "Vape Devices", "E-Liquids", "Tanks", "Herbal Wellness", "Pods & Coils"]);
+const PUBLISHED_CATEGORIES = new Set(["Disposable Vapes", "Vape Devices", "E-Liquids", "Tanks", "Herbal Wellness", "Pods & Coils", "Accessories"]);
 
 /**
  * When true, and a "<name>-transformed.<ext>" file exists next to the image the
