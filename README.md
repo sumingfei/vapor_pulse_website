@@ -28,7 +28,7 @@ stale copy undoes it.
 | --- | --- | --- |
 | Address, phone, hours, rating | `src/data/business.ts` | Live |
 | Product categories | `src/data/categories.ts` | 8 categories |
-| Product catalog | `src/data/catalog.json` (generated) | Disposable Vapes, Vape Devices, E-Liquids, Tanks published |
+| Product catalog | `src/data/catalog.json` (generated) | Disposable Vapes, Vape Devices, E-Liquids, Tanks, Herbal Wellness published |
 | Rewards program | `src/data/rewards.ts` | Redemption tiers confirmed; earn rate still unconfirmed |
 | FAQs | `src/data/faqs.ts` | 8 questions |
 | About copy | `src/data/about.ts` | Live, no dates claimed |

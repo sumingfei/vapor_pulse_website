@@ -1,11 +1,17 @@
 {
-  "generatedAt": "2026-09-18T02:50:57.606Z",
+  "generatedAt": "2026-09-18T04:08:09.988Z",
   "products": [
     {
       "id": "air-factory-20k-disposable",
       "name": "Air Factory 20k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/air-factory-20k-disposable-transformed.webp"
+    },
+    {
+      "id": "amigos-50mg-thc-beverage-grape",
+      "name": "Amigos 50mg THC Beverage - Grape",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/amigos-50mg-thc-beverage-grape-transformed.webp"
     },
     {
       "id": "artery-45k-disposable",
@@ -26,16 +32,82 @@
       "image": "/products/e-liquids/barista-brew-e-liquid-60ml-6mg-cbs-transformed.webp"
     },
     {
+      "id": "blanco-chapo-double-stacks-gummies-10-count-jar-sativa",
+      "name": "Blanco Chapo Double Stacks Gummies [10 Count Jar] - Sativa",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/blanco-chapo-double-stacks-gummies-10-count-jar-sativa-transformed.webp"
+    },
+    {
+      "id": "blanco-chapo-double-stacks-gummy-1-piece-hybrid",
+      "name": "Blanco Chapo Double Stacks Gummy [1 Piece] - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/blanco-chapo-double-stacks-gummy-1-piece-hybrid-transformed.webp"
+    },
+    {
+      "id": "blend-3ct-alkaloid-pack-strawberry",
+      "name": "Blend - 3ct Alkaloid Pack - Strawberry",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
       "id": "bsx-ice-60ml-6mg-strawnana-ice",
       "name": "BSX ICE / 60ml - 6mg Strawnana Ice",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/bsx-ice-60ml-6mg-strawnana-ice-transformed.webp"
     },
     {
+      "id": "bumblebee-kratom-powder-red-borneo",
+      "name": "Bumblebee Kratom (Powder) - Red Borneo",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/bumblebee-kratom-powder-red-borneo-transformed.webp"
+    },
+    {
+      "id": "bumblebee-kratom-capsules-90ct-green-borneo",
+      "name": "Bumblebee Kratom Capsules (90ct) - Green Borneo",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/bumblebee-kratom-capsules-90ct-green-borneo-transformed.webp"
+    },
+    {
+      "id": "bumblebee-kratom-capsules-300ct-red-borneo",
+      "name": "Bumblebee Kratom Capsules 300ct - Red Borneo",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/bumblebee-kratom-capsules-300ct-red-borneo-transformed.webp"
+    },
+    {
+      "id": "bumblebee-kratom-capsules-500ct-hello-vietnam",
+      "name": "Bumblebee Kratom Capsules 500ct - Hello Vietnam",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/bumblebee-kratom-capsules-500ct-hello-vietnam-transformed.webp"
+    },
+    {
+      "id": "bumblebee-kratom-powder-250g-red-borneo",
+      "name": "Bumblebee Kratom Powder 250g - Red Borneo",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/bumblebee-kratom-powder-250g-red-borneo-transformed.webp"
+    },
+    {
       "id": "candy-king-100ml-3mg-tropic-chew",
       "name": "Candy King / 100ml - 3mg Tropic Chew",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/candy-king-100ml-3mg-tropic-chew-transformed.webp"
+    },
+    {
+      "id": "canny-land-adult-lozenge-150mg-fruit",
+      "name": "Canny Land Adult Lozenge [150mg] - Fruit",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/canny-land-adult-lozenge-150mg-fruit-transformed.webp"
+    },
+    {
+      "id": "chapo-supermax-5000mg-gummies-watermelon-candy",
+      "name": "Chapo Supermax 5000MG Gummies - Watermelon Candy",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/chapo-supermax-5000mg-gummies-watermelon-candy-transformed.webp"
+    },
+    {
+      "id": "chonged-thc-shot-sativa",
+      "name": "Chonged THC Shot - Sativa",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/chonged-thc-shot-sativa-transformed.webp"
     },
     {
       "id": "cloud-nurdz-100ml-6mg-watermelon-apple-iced",
@@ -122,6 +194,24 @@
       "image": "/products/disposable-vapes/dinner-lady-50k-disposable-transformed.webp"
     },
     {
+      "id": "dreamer-exotics-pre-rolls-2pk-indica",
+      "name": "Dreamer Exotics Pre Rolls [2pk] - Indica",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/dreamer-exotics-pre-rolls-2pk-indica-transformed.webp"
+    },
+    {
+      "id": "drizzle-d9-50mg-beverage-peach-mango",
+      "name": "Drizzle D9 50mg Beverage - Peach Mango",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/drizzle-d9-50mg-beverage-peach-mango-transformed.webp"
+    },
+    {
+      "id": "electric-lemonade-150mg-thc-beverage-lemonade",
+      "name": "Electric Lemonade 150mg THC Beverage - Lemonade",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/electric-lemonade-150mg-thc-beverage-lemonade-transformed.webp"
+    },
+    {
       "id": "fifty-bar-20k-disposable",
       "name": "Fifty Bar 20k Disposable",
       "categorySlug": "disposable-vapes",
@@ -168,6 +258,12 @@
       "name": "Fruit Monster SALT / 30ml - 24mg Blueberry Raspberry Lemon",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/fruit-monster-salt-30ml-24mg-blueberry-raspberry-lemon-transformed.webp"
+    },
+    {
+      "id": "fvkd-thca-battery-bundle-indica",
+      "name": "FVKD thcA + Battery Bundle - Indica",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/fvkd-thca-battery-bundle-indica-transformed.webp"
     },
     {
       "id": "geekbar-clr-50k-disposable",
@@ -236,6 +332,30 @@
       "image": "/products/e-liquids/glas-bassix-60ml-3mg-strawberry-milk-transformed.webp"
     },
     {
+      "id": "gold-naturals-wellness-gummies-sleep",
+      "name": "Gold Naturals Wellness Gummies - Sleep",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/gold-naturals-wellness-gummies-sleep-transformed.webp"
+    },
+    {
+      "id": "gummy-gang-10000mg-gummies-10pcs-grape-watermelon",
+      "name": "Gummy Gang - 10000MG Gummies (10Pcs) - Grape Watermelon",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/gummy-gang-10000mg-gummies-10pcs-grape-watermelon-transformed.webp"
+    },
+    {
+      "id": "hazy-mary-diamond-donut-pre-roll-2g-hybrid",
+      "name": "Hazy Mary Diamond Donut Pre Roll [2g] - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/hazy-mary-diamond-donut-pre-roll-2g-hybrid-transformed.webp"
+    },
+    {
+      "id": "herbal-clean-q-carbo-detox-orange",
+      "name": "Herbal Clean Q Carbo Detox - Orange",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/herbal-clean-q-carbo-detox-orange-transformed.webp"
+    },
+    {
       "id": "hi-5-50k-disposable-flavor-pod",
       "name": "Hi 5 50k Disposable Flavor Pod",
       "categorySlug": "disposable-vapes",
@@ -290,6 +410,24 @@
       "image": "/products/e-liquids/juice-head-salts-30ml-50mg-pineapple-grapefruit-transformed.webp"
     },
     {
+      "id": "just-cbd-pets-peanut-butter",
+      "name": "Just CBD Pets - Peanut Butter",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/just-cbd-pets-peanut-butter-transformed.webp"
+    },
+    {
+      "id": "krazy-lion-3-pack-preroll-hybrid",
+      "name": "Krazy Lion 3 Pack Preroll - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/krazy-lion-3-pack-preroll-hybrid-transformed.webp"
+    },
+    {
+      "id": "lava-thca-pre-roll-5pk-hybrid",
+      "name": "Lava thcA Pre Roll [5pk] - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/lava-thca-pre-roll-5pk-hybrid-transformed.webp"
+    },
+    {
       "id": "lemonade-monster-100ml-6mg-blueberry",
       "name": "Lemonade Monster / 100ml - 6mg Blueberry",
       "categorySlug": "e-liquids",
@@ -300,6 +438,24 @@
       "name": "Lemonade Monster SALTS / 30ml - 48mg Blueberry",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/lemonade-monster-salts-30ml-48mg-blueberry-transformed.webp"
+    },
+    {
+      "id": "limitless-hydroxy-black-500mg-blue-razz",
+      "name": "Limitless Hydroxy Black (500MG) - Blue Razz",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/limitless-hydroxy-black-500mg-blue-razz-transformed.webp"
+    },
+    {
+      "id": "limitless-hydroxy-platinum-1000mg-grape",
+      "name": "Limitless Hydroxy Platinum (1000MG) - Grape",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/limitless-hydroxy-platinum-1000mg-grape-transformed.webp"
+    },
+    {
+      "id": "liquid-lava-thc-seltzer-500mg-cherry-limeade",
+      "name": "Liquid Lava Thc Seltzer [500mg] - Cherry Limeade",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/liquid-lava-thc-seltzer-500mg-cherry-limeade-transformed.webp"
     },
     {
       "id": "lookah-cat-guitar-510-battery-cat",
@@ -326,6 +482,12 @@
       "image": "/products/vape-devices/lookah-turtle-510-cartridge-battery-purple-transformed.webp"
     },
     {
+      "id": "looper-duos-thc-30mg-gummies-watermelon-punch",
+      "name": "Looper Duos THC 30MG Gummies - Watermelon / Punch",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
       "id": "losgal-25k-puff-disposable",
       "name": "Losgal 25k Puff Disposable",
       "categorySlug": "disposable-vapes",
@@ -348,6 +510,48 @@
       "name": "Lost Mary Turbo 35k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/lost-mary-turbo-35k-disposable-transformed.webp"
+    },
+    {
+      "id": "low-tide-3-5-hemp-flower-hybrid",
+      "name": "Low Tide 3.5 Hemp Flower - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
+      "id": "megahit-7oh-single-tablet-52mg-blue-razzberry",
+      "name": "Megahit 7OH Single Tablet [52mg] - Blue Razzberry",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
+      "id": "mellow-fellow-3-5g-1-hitter-bundle-hybrid",
+      "name": "Mellow Fellow 3.5g + 1 Hitter Bundle - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
+      "id": "mellow-fellow-max-dose-10-000mg-gummies-20ct-watermelon",
+      "name": "Mellow Fellow Max Dose 10,000MG Gummies (20ct) - Watermelon",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/mellow-fellow-max-dose-10-000mg-gummies-20ct-watermelon-transformed.webp"
+    },
+    {
+      "id": "mellow-fellow-thca-2g-pre-roll-single-indica",
+      "name": "Mellow Fellow thcA 2g Pre Roll [Single] - Indica",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/mellow-fellow-thca-2g-pre-roll-single-indica-transformed.webp"
+    },
+    {
+      "id": "mit-go-extra-strength-kratom",
+      "name": "MIT GO Extra Strength Kratom",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/mit-go-extra-strength-kratom-transformed.webp"
+    },
+    {
+      "id": "munchies-1-5-5-diamond-preroll-frosted-tarts",
+      "name": "Munchies 1.5 + .5 Diamond Preroll - Frosted Tarts",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/munchies-1-5-5-diamond-preroll-frosted-tarts-transformed.webp"
     },
     {
       "id": "naked-100-60ml-3mg-lava-flow",
@@ -440,6 +644,12 @@
       "image": "/products/vape-devices/ooze-vault-concentrate-kit-green-transformed.webp"
     },
     {
+      "id": "opm-s-liquid-kratom-shot",
+      "name": "OPM’S Liquid Kratom Shot",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/opm-s-liquid-kratom-shot-transformed.webp"
+    },
+    {
       "id": "orion-bar-50k-disposable",
       "name": "Orion Bar 50k Disposable",
       "categorySlug": "disposable-vapes",
@@ -470,6 +680,12 @@
       "image": "/products/vape-devices/pulsar-range-all-in-1-kit-green-transformed.webp"
     },
     {
+      "id": "quick-fix",
+      "name": "Quick Fix",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/quick-fix-transformed.webp"
+    },
+    {
       "id": "raz-25k-disposable",
       "name": "Raz 25k Disposable",
       "categorySlug": "disposable-vapes",
@@ -486,6 +702,12 @@
       "name": "Sad Boy Nola Line / 100ml - 6mg Blueberry",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/sad-boy-nola-line-100ml-6mg-blueberry-transformed.webp"
+    },
+    {
+      "id": "sherpa-thc-baked-krisps-25mg-singles-cookies-cream",
+      "name": "Sherpa THC Baked Krisps 25MG - Singles - Cookies & Cream",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/sherpa-thc-baked-krisps-25mg-singles-cookies-and-cream-transformed.webp"
     },
     {
       "id": "skwezed-100ml-6mg-kiwi-strawberry",
@@ -506,10 +728,28 @@
       "image": "/products/e-liquids/skwezed-salts-30ml-50mg-mint-transformed.webp"
     },
     {
+      "id": "smak-d-thcp-flower-2g-jar-indica",
+      "name": "Smak'd thcP Flower [2g Jar] - Indica",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/smak-d-thcp-flower-2g-jar-indica-transformed.webp"
+    },
+    {
       "id": "smok-spaceman-20k-disposable",
       "name": "Smok Spaceman 20k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/smok-spaceman-20k-disposable-transformed.webp"
+    },
+    {
+      "id": "snoozy-20ct-gummies-sleep-benefit-17mg",
+      "name": "Snoozy 20ct Gummies - Sleep Benefit - 17mg",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/snoozy-20ct-gummies-sleep-benefit-17mg-transformed.webp"
+    },
+    {
+      "id": "snoozy-gummies-sample-pack-sigh-of-relief-60mg",
+      "name": "Snoozy Gummies Sample Pack - Sigh Of Relief - 60mg",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/snoozy-gummies-sample-pack-sigh-of-relief-60mg-transformed.webp"
     },
     {
       "id": "space-pulse-30k-disposable-zero-nicotine",
@@ -560,6 +800,12 @@
       "image": "/products/e-liquids/the-one-100ml-3mg-milky-loops-transformed.webp"
     },
     {
+      "id": "toke-station-thcp-pre-roll-1-5g-hybrid",
+      "name": "Toke Station thcP Pre Roll [1.5g] - Hybrid",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
       "id": "twist-salt-30ml-50mh-purple-no-1",
       "name": "Twist Salt / 30ml - 50mh Purple No.1",
       "categorySlug": "e-liquids",
@@ -576,6 +822,36 @@
       "name": "Uno Nine 30k Disposable Starter Kit",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/uno-nine-30k-disposable-starter-kit-transformed.webp"
+    },
+    {
+      "id": "upass-synthetic",
+      "name": "Upass Synthetic",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/upass-synthetic.webp"
+    },
+    {
+      "id": "urb-d9-gummies-350mg-kiwi-lemonade",
+      "name": "Urb D9 Gummies [350mg] - Kiwi Lemonade",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/urb-d9-gummies-350mg-kiwi-lemonade-transformed.webp"
+    },
+    {
+      "id": "urb-highlandia-thc-beverage-tangilime-grove",
+      "name": "Urb Highlandia THC Beverage - Tangilime Grove",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/urb-highlandia-thc-beverage-tangilime-grove-transformed.webp"
+    },
+    {
+      "id": "urb-live-resin-gummies-2-pack-apple-berri",
+      "name": "Urb Live Resin Gummies (2 Pack) - Apple Berri",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/urb-live-resin-gummies-2-pack-apple-berri-transformed.webp"
+    },
+    {
+      "id": "urb-live-sugar-gummies-5000mg-papaya-punch",
+      "name": "Urb Live Sugar Gummies [5000mg] - Papaya Punch",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/urb-live-sugar-gummies-5000mg-papaya-punch-transformed.webp"
     },
     {
       "id": "vapetasia-100ml-3mg-killer-kustard",
@@ -602,16 +878,58 @@
       "image": "/products/e-liquids/vapetasia-salt-30ml-50mg-watermelon-gummy-transformed.webp"
     },
     {
+      "id": "venera-4g-pre-roll-2ct-indica",
+      "name": "Venera 4g Pre Roll (2ct) - Indica",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/venera-4g-pre-roll-2ct-indica-transformed.webp"
+    },
+    {
       "id": "vgod-salts-50mg-mighty-mint",
       "name": "VGOD SALTS - 50mg Mighty Mint",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/vgod-salts-50mg-mighty-mint-transformed.webp"
     },
     {
+      "id": "warpd-2g-single-preroll-boost",
+      "name": "Warpd 2G Single Preroll - Boost",
+      "categorySlug": "herbal-wellness",
+      "image": null
+    },
+    {
+      "id": "wyld-250mg-cbd-gummies-raspberry",
+      "name": "WYLD 250MG CBD Gummies - Raspberry",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/wyld-250mg-cbd-gummies-raspberry-transformed.webp"
+    },
+    {
+      "id": "wyld-500mg-cbd-gummies-lemon",
+      "name": "WYLD 500MG CBD Gummies - Lemon",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/wyld-500mg-cbd-gummies-lemon-transformed.webp"
+    },
+    {
       "id": "x-posed-35k-disposable-pod-battery",
       "name": "X-posed 35k Disposable [Pod + Battery]",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/x-posed-35k-disposable-pod-battery-transformed.webp"
+    },
+    {
+      "id": "xite-300mg-chocolate-bar-d9-cbd-10-piece-milk-chocolate-bag",
+      "name": "Xite 300mg Chocolate Bar [D9/CBD] [10 Piece] - Milk Chocolate Bag",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/xite-300mg-chocolate-bar-d9-cbd-10-piece-milk-chocolate-bag-transformed.webp"
+    },
+    {
+      "id": "xite-chewables-blue-raspberry",
+      "name": "Xite Chewables - Blue Raspberry",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/xite-chewables-blue-raspberry-transformed.webp"
+    },
+    {
+      "id": "xite-chocolate-minis-d9-dubai-chocolate",
+      "name": "Xite Chocolate Minis (D9) - Dubai Chocolate",
+      "categorySlug": "herbal-wellness",
+      "image": "/products/herbal-wellness/xite-chocolate-minis-d9-dubai-chocolate-transformed.webp"
     },
     {
       "id": "yocan-vane-herbal-vaporizer-red",
