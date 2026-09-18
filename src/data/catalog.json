@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-09-18T04:09:05.711Z",
+  "generatedAt": "2026-09-18T04:10:08.267Z",
   "products": [
+    {
+      "id": "aegis-replacement-cartridge",
+      "name": "Aegis Replacement Cartridge",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/aegis-replacement-cartridge-transformed.webp"
+    },
     {
       "id": "air-factory-20k-disposable",
       "name": "Air Factory 20k Disposable",
@@ -78,6 +84,24 @@
       "name": "Bumblebee Kratom Powder 250g - Red Borneo",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/bumblebee-kratom-powder-250g-red-borneo-transformed.webp"
+    },
+    {
+      "id": "caliburn-a2-replacement-pods-1-2-mesh",
+      "name": "Caliburn A2 Replacement Pods - 1.2 Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/caliburn-a2-replacement-pods-1-2-mesh-transformed.webp"
+    },
+    {
+      "id": "caliburn-g-coils-1-0-ohm",
+      "name": "Caliburn G Coils - 1.0 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/caliburn-g-coils-1-0-ohm-transformed.webp"
+    },
+    {
+      "id": "caliburn-g2-empty-pod",
+      "name": "Caliburn G2 Empty Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/caliburn-g2-empty-pod-transformed.webp"
     },
     {
       "id": "candy-king-100ml-3mg-tropic-chew",
@@ -230,6 +254,24 @@
       "image": "/products/disposable-vapes/foger-switch-flavor-pod-pod-only-transformed.webp"
     },
     {
+      "id": "freemax-coils-m3-mesh",
+      "name": "Freemax Coils - M3 Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/freemax-coils-m3-mesh-transformed.webp"
+    },
+    {
+      "id": "freemax-galex-replacement-coils-1-0-ohm",
+      "name": "Freemax Galex Replacement Coils - 1.0 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/freemax-galex-replacement-coils-1-0-ohm-transformed.webp"
+    },
+    {
+      "id": "freemax-maxpod-replacement-pod-ns-mesh-1-0",
+      "name": "Freemax Maxpod Replacement Pod - NS Mesh 1.0",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/freemax-maxpod-replacement-pod-ns-mesh-1-0-transformed.webp"
+    },
+    {
       "id": "frozen-fruit-monster-100ml-6mg-mixed-berries",
       "name": "Frozen Fruit Monster / 100ml - 6mg Mixed Berries",
       "categorySlug": "e-liquids",
@@ -258,6 +300,12 @@
       "name": "FVKD thcA + Battery Bundle - Indica",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/fvkd-thca-battery-bundle-indica-transformed.webp"
+    },
+    {
+      "id": "g-priv-pro-empty-pods-rpm-2-pod",
+      "name": "G Priv Pro Empty Pods - RPM 2 Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/g-priv-pro-empty-pods-rpm-2-pod-transformed.webp"
     },
     {
       "id": "geekbar-clr-50k-disposable",
@@ -302,6 +350,12 @@
       "image": "/products/disposable-vapes/geekbar-pulse-x2-50k-disposable-transformed.webp"
     },
     {
+      "id": "geekvape-aegis-force-replacement-cartridge",
+      "name": "Geekvape Aegis Force Replacement Cartridge",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-aegis-force-replacement-cartridge-transformed.webp"
+    },
+    {
       "id": "geekvape-aegis-hero-5-starter-kit-racing-blue",
       "name": "Geekvape Aegis Hero 5 Starter Kit - Racing Blue",
       "categorySlug": "vape-devices",
@@ -312,6 +366,78 @@
       "name": "Geekvape Aegis Solo 3 Kit - Red",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/geekvape-aegis-solo-3-kit-red-transformed.webp"
+    },
+    {
+      "id": "geekvape-boost-coils-2-ohm",
+      "name": "Geekvape Boost Coils - .2 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-boost-coils-2-ohm-transformed.webp"
+    },
+    {
+      "id": "geekvape-g-series-coils-8-ohm",
+      "name": "Geekvape G Series Coils - .8 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-g-series-coils-8-ohm-transformed.webp"
+    },
+    {
+      "id": "geekvape-h45-empty-pod",
+      "name": "Geekvape H45 Empty Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-h45-empty-pod-transformed.webp"
+    },
+    {
+      "id": "geekvape-h45-replacement-cartridge",
+      "name": "Geekvape H45 Replacement Cartridge",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-h45-replacement-cartridge-transformed.webp"
+    },
+    {
+      "id": "geekvape-hero-5-replacement-cartridge",
+      "name": "Geekvape Hero 5 Replacement Cartridge",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-hero-5-replacement-cartridge-transformed.webp"
+    },
+    {
+      "id": "geekvape-meshmellow-coil-mm-x1",
+      "name": "GeekVape Meshmellow Coil - MM X1",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-meshmellow-coil-mm-x1-transformed.webp"
+    },
+    {
+      "id": "geekvape-n-empty-pod-1-2-ohm",
+      "name": "Geekvape N Empty Pod - 1.2 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-n-empty-pod-1-2-ohm-transformed.webp"
+    },
+    {
+      "id": "geekvape-p-series-coils-mesh-0-4",
+      "name": "Geekvape P Series Coils - Mesh 0.4",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-p-series-coils-mesh-0-4-transformed.webp"
+    },
+    {
+      "id": "geekvape-supermesh-coils-x2-4ohm",
+      "name": "GeekVape Supermesh Coils - X2 .4ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-supermesh-coils-x2-4ohm-transformed.webp"
+    },
+    {
+      "id": "geekvape-u-empty-pod-1-1-ohm",
+      "name": "Geekvape U Empty Pod - 1.1 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-u-empty-pod-1-1-ohm-transformed.webp"
+    },
+    {
+      "id": "geekvape-z-max-coils-m-15-quad",
+      "name": "Geekvape Z Max Coils - M .15 Quad",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-z-max-coils-m-15-quad-transformed.webp"
+    },
+    {
+      "id": "geekvape-zeus-coils-mesh-0-4",
+      "name": "GeekVape Zeus Coils - Mesh 0.4",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/geekvape-zeus-coils-mesh-0-4-transformed.webp"
     },
     {
       "id": "geekvape-zeus-sub-tank-rainbow",
@@ -360,6 +486,12 @@
       "name": "Hipster HydroQax Starter Kit - Blue",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/hipster-hydroqax-starter-kit-blue-transformed.webp"
+    },
+    {
+      "id": "horizon-tech-sakerz-coils-2in1-mesh",
+      "name": "Horizon Tech Sakerz Coils - 2in1 Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/horizon-tech-sakerz-coils-2in1-mesh-transformed.webp"
     },
     {
       "id": "innevape-100ml-3mg-mocha-latte",
@@ -500,6 +632,12 @@
       "image": "/products/disposable-vapes/lost-mary-turbo-35k-disposable-transformed.webp"
     },
     {
+      "id": "lost-vape-ursa-replacement-pods-1-0-ohm",
+      "name": "Lost Vape URSA Replacement Pods - 1.0 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/lost-vape-ursa-replacement-pods-1-0-ohm-transformed.webp"
+    },
+    {
       "id": "mellow-fellow-max-dose-10-000mg-gummies-20ct-watermelon",
       "name": "Mellow Fellow Max Dose 10,000MG Gummies (20ct) - Watermelon",
       "categorySlug": "herbal-wellness",
@@ -554,10 +692,28 @@
       "image": "/products/e-liquids/naked-tobacco-60ml-12mg-american-patriots-transformed.webp"
     },
     {
+      "id": "nexmesh-empty-pod",
+      "name": "Nexmesh Empty Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/nexmesh-empty-pod-transformed.webp"
+    },
+    {
+      "id": "nexmesh-replacement-coil-mtl-4",
+      "name": "Nexmesh Replacement Coil - MTL .4",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/nexmesh-replacement-coil-mtl-4-transformed.webp"
+    },
+    {
       "id": "noms-x2-120ml-3mg-watermelon-blackberry",
       "name": "Noms X2 / 120ml - 3mg Watermelon BlackBerry",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/noms-x2-120ml-3mg-watermelon-blackberry-transformed.webp"
+    },
+    {
+      "id": "obs-cotton-coil-cube-kit",
+      "name": "OBS Cotton Coil (Cube Kit)",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/obs-cotton-coil-cube-kit-transformed.webp"
     },
     {
       "id": "off-stamp-25k-disposable-pod-crystal-cube",
@@ -662,6 +818,12 @@
       "image": "/products/disposable-vapes/raz-25k-disposable-transformed.webp"
     },
     {
+      "id": "rpm-5-empty-pod",
+      "name": "RPM 5 Empty Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/rpm-5-empty-pod-transformed.webp"
+    },
+    {
       "id": "sad-boy-100ml-6mg-unicorn-tears",
       "name": "Sad Boy / 100ml - 6mg Unicorn Tears",
       "categorySlug": "e-liquids",
@@ -672,6 +834,12 @@
       "name": "Sad Boy Nola Line / 100ml - 6mg Blueberry",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/sad-boy-nola-line-100ml-6mg-blueberry-transformed.webp"
+    },
+    {
+      "id": "seahorse-pro-coils-quartz",
+      "name": "Seahorse Pro Coils - Quartz",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/seahorse-pro-coils-quartz-transformed.webp"
     },
     {
       "id": "sherpa-thc-baked-krisps-25mg-singles-cookies-cream",
@@ -704,10 +872,154 @@
       "image": "/products/herbal-wellness/smak-d-thcp-flower-2g-jar-indica-transformed.webp"
     },
     {
+      "id": "smok-baby-v2-coils-a1-coil",
+      "name": "Smok Baby V2 Coils - A1 Coil",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-baby-v2-coils-a1-coil-transformed.webp"
+    },
+    {
+      "id": "smok-fetch-replacement-pods-nord-pod",
+      "name": "Smok Fetch Replacement Pods - Nord Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-fetch-replacement-pods-nord-pod-transformed.webp"
+    },
+    {
+      "id": "smok-lp1-coils-dc-8-mtl",
+      "name": "Smok LP1 Coils - DC .8 MTL",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-lp1-coils-dc-8-mtl-transformed.webp"
+    },
+    {
+      "id": "smok-lp2-coils-mesh-23-dtl",
+      "name": "Smok LP2 Coils - Mesh .23 DTL",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-lp2-coils-mesh-23-dtl-transformed.webp"
+    },
+    {
+      "id": "smok-nord-50-empty-pod-nord",
+      "name": "Smok Nord 50 Empty Pod - Nord",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-nord-50-empty-pod-nord-transformed.webp"
+    },
+    {
+      "id": "smok-nord-pro-coils-9-mtl",
+      "name": "Smok Nord PRO Coils - .9 MTL",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-nord-pro-coils-9-mtl-transformed.webp"
+    },
+    {
+      "id": "smok-nord-replaceable-pod",
+      "name": "Smok Nord Replaceable Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-nord-replaceable-pod-transformed.webp"
+    },
+    {
+      "id": "smok-nord-x-replacement-pods-rpm-pod",
+      "name": "Smok Nord X Replacement Pods - Rpm Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-nord-x-replacement-pods-rpm-pod-transformed.webp"
+    },
+    {
+      "id": "smok-novo-2-pods-1-0-mesh",
+      "name": "Smok Novo 2 Pods - 1.0 mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-novo-2-pods-1-0-mesh-transformed.webp"
+    },
+    {
+      "id": "smok-novo-2x-replacement-pod-0-9-mtl",
+      "name": "Smok Novo 2X Replacement Pod (0.9 MTL)",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-novo-2x-replacement-pod-0-9-mtl-transformed.webp"
+    },
+    {
+      "id": "smok-novo-3-pods-mesh-0-8",
+      "name": "Smok Novo 3 Pods - Mesh 0.8",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-novo-3-pods-mesh-0-8-transformed.webp"
+    },
+    {
+      "id": "smok-novo-4-empty-pod",
+      "name": "Smok Novo 4 Empty Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-novo-4-empty-pod-transformed.webp"
+    },
+    {
+      "id": "smok-rpm-2-coils-dc-6-mtl",
+      "name": "Smok RPM 2 Coils - DC .6 MTL",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-rpm-2-coils-dc-6-mtl-transformed.webp"
+    },
+    {
+      "id": "smok-rpm-3-coils-15-ohm-dtl",
+      "name": "Smok RPM 3 Coils - .15 Ohm DTL",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-rpm-3-coils-15-ohm-dtl-transformed.webp"
+    },
+    {
+      "id": "smok-rpm-4-empty-pod-rpm-pod",
+      "name": "Smok RPM 4 Empty Pod - RPM Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-rpm-4-empty-pod-rpm-pod-transformed.webp"
+    },
+    {
+      "id": "smok-rpm-coils-mesh-4",
+      "name": "Smok RPM Coils - Mesh .4",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-rpm-coils-mesh-4-transformed.webp"
+    },
+    {
       "id": "smok-spaceman-20k-disposable",
       "name": "Smok Spaceman 20k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/smok-spaceman-20k-disposable-transformed.webp"
+    },
+    {
+      "id": "smok-ta-coils-2-ohm",
+      "name": "Smok TA Coils - .2 Ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-ta-coils-2-ohm-transformed.webp"
+    },
+    {
+      "id": "smok-tf-tank-mesh-coils-15-ohm",
+      "name": "Smok TF Tank Mesh Coils - .15 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-tf-tank-mesh-coils-15-ohm-transformed.webp"
+    },
+    {
+      "id": "smok-tfv16-mesh-coil-20-conical-mesh",
+      "name": "Smok TFV16 Mesh Coil - .20 Conical Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-tfv16-mesh-coil-20-conical-mesh-transformed.webp"
+    },
+    {
+      "id": "smok-tfv18-coils-dual-mesh-15",
+      "name": "Smok TFV18 Coils - Dual Mesh .15",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-tfv18-coils-dual-mesh-15-transformed.webp"
+    },
+    {
+      "id": "smok-tfv18-mini-coils-dual-mesh",
+      "name": "Smok TFV18 MiNi Coils - Dual Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-tfv18-mini-coils-dual-mesh-transformed.webp"
+    },
+    {
+      "id": "smok-tfv9-coil-15-mesh",
+      "name": "Smok TFV9 Coil - .15 Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-tfv9-coil-15-mesh-transformed.webp"
+    },
+    {
+      "id": "smok-thiner-refillable-pods-mesh-8",
+      "name": "Smok Thiner Refillable Pods - Mesh .8",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-thiner-refillable-pods-mesh-8-transformed.webp"
+    },
+    {
+      "id": "smok-vape-pen-v2-coils-dc-6",
+      "name": "Smok Vape Pen V2 Coils - DC .6",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/smok-vape-pen-v2-coils-dc-6-transformed.webp"
     },
     {
       "id": "snoozy-20ct-gummies-sleep-benefit-17mg",
@@ -750,6 +1062,30 @@
       "name": "Strio FLY HIGH Thread Battery - Red",
       "categorySlug": "vape-devices",
       "image": "/products/vape-devices/strio-fly-high-thread-battery-red-transformed.webp"
+    },
+    {
+      "id": "suorin-air-mod-empty-pod",
+      "name": "Suorin Air Mod Empty Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/suorin-air-mod-empty-pod-transformed.webp"
+    },
+    {
+      "id": "suorin-air-plus-pods-0-7",
+      "name": "Suorin Air Plus Pods - 0.7",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/suorin-air-plus-pods-0-7-transformed.webp"
+    },
+    {
+      "id": "suorin-replacement-pods-edge-pod",
+      "name": "Suorin Replacement Pods - Edge Pod",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/suorin-replacement-pods-edge-pod-transformed.webp"
+    },
+    {
+      "id": "tfv16-lite-coils-dual-mesh",
+      "name": "TFV16 Lite Coils - Dual Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/tfv16-lite-coils-dual-mesh-transformed.webp"
     },
     {
       "id": "the-milk-100ml-3mg-cinnamon",
@@ -818,6 +1154,36 @@
       "image": "/products/herbal-wellness/urb-live-sugar-gummies-5000mg-papaya-punch-transformed.webp"
     },
     {
+      "id": "uwell-caliburn-pods-fecr-1-4ohm",
+      "name": "Uwell Caliburn Pods - FeCr 1.4ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/uwell-caliburn-pods-fecr-1-4ohm-transformed.webp"
+    },
+    {
+      "id": "uwell-coils-whirl-1-8",
+      "name": "UWell Coils - Whirl 1.8",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/uwell-coils-whirl-1-8-transformed.webp"
+    },
+    {
+      "id": "uwell-crown-coils-crown-iv-23",
+      "name": "UWell Crown Coils - Crown IV .23",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/uwell-crown-coils-crown-iv-23-transformed.webp"
+    },
+    {
+      "id": "uwell-crown-replacement-pod-fec-1-0-ohm",
+      "name": "Uwell Crown Replacement Pod - FeC 1.0 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/uwell-crown-replacement-pod-fec-1-0-ohm-transformed.webp"
+    },
+    {
+      "id": "uwell-valyrian-2-coils-triple-mesh-16",
+      "name": "Uwell Valyrian 2 Coils - Triple Mesh .16",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/uwell-valyrian-2-coils-triple-mesh-16-transformed.webp"
+    },
+    {
       "id": "vapetasia-100ml-3mg-killer-kustard",
       "name": "Vapetasia / 100ml - 3mg Killer Kustard",
       "categorySlug": "e-liquids",
@@ -842,6 +1208,30 @@
       "image": "/products/e-liquids/vapetasia-salt-30ml-50mg-watermelon-gummy-transformed.webp"
     },
     {
+      "id": "vaporesso-coils-gti-2-mesh",
+      "name": "Vaporesso Coils - GTI .2 Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/vaporesso-coils-gti-2-mesh-transformed.webp"
+    },
+    {
+      "id": "vaporesso-gtx-pod-coils-1-2-regular",
+      "name": "Vaporesso GTX Pod Coils - 1.2 Regular",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/vaporesso-gtx-pod-coils-1-2-regular-transformed.webp"
+    },
+    {
+      "id": "vaporesso-vibe-series-pod-1-0-ohm",
+      "name": "Vaporesso Vibe Series Pod - 1.0 ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/vaporesso-vibe-series-pod-1-0-ohm-transformed.webp"
+    },
+    {
+      "id": "vaporesso-xros-pods-6-mtl",
+      "name": "Vaporesso XROS Pods - .6 mtl",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/vaporesso-xros-pods-6-mtl-transformed.webp"
+    },
+    {
       "id": "venera-4g-pre-roll-2ct-indica",
       "name": "Venera 4g Pre Roll (2ct) - Indica",
       "categorySlug": "herbal-wellness",
@@ -852,6 +1242,30 @@
       "name": "VGOD SALTS - 50mg Mighty Mint",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/vgod-salts-50mg-mighty-mint-transformed.webp"
+    },
+    {
+      "id": "voopoo-coils-uforce-n3",
+      "name": "VooPoo Coils - Uforce N3",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/voopoo-coils-uforce-n3-transformed.webp"
+    },
+    {
+      "id": "voopoo-pnp-coils-vm3-45",
+      "name": "Voopoo PnP Coils - Vm3 .45",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/voopoo-pnp-coils-vm3-45-transformed.webp"
+    },
+    {
+      "id": "voopoo-tpp-coils-dm1-15ohm",
+      "name": "Voopoo TPP Coils - DM1 .15ohm",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/voopoo-tpp-coils-dm1-15ohm-transformed.webp"
+    },
+    {
+      "id": "voopoo-vinci-q-pods-8-mesh",
+      "name": "VooPoo Vinci Q Pods - .8 Mesh",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/voopoo-vinci-q-pods-8-mesh-transformed.webp"
     },
     {
       "id": "wyld-250mg-cbd-gummies-raspberry",
@@ -888,6 +1302,12 @@
       "name": "Xite Chocolate Minis (D9) - Dubai Chocolate",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/xite-chocolate-minis-d9-dubai-chocolate-transformed.webp"
+    },
+    {
+      "id": "yocan-evolve-xl-coils-quad-coil",
+      "name": "Yocan Evolve XL Coils - Quad Coil",
+      "categorySlug": "pods-and-coils",
+      "image": "/products/pods-and-coils/yocan-evolve-xl-coils-quad-coil-transformed.webp"
     },
     {
       "id": "yocan-vane-herbal-vaporizer-red",
