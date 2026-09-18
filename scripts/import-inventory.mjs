@@ -11,6 +11,7 @@
  *
  * Expected columns: Item, Category, ImageLocation (others are ignored).
  * ImageLocation is a path under /public, e.g. /products/disposable-vapes/x.webp
+ * Rows with an empty ImageLocation are not published.
  */
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
@@ -107,7 +108,7 @@ if (csvFiles.length === 0) {
 
 const products = [];
 const seenIds = new Set();
-const skipped = { unpublished: 0, unknownCategory: [], missingImage: [], duplicate: [] };
+const skipped = { unpublished: 0, unknownCategory: [], noImageLocation: [], missingImage: [], duplicate: [] };
 
 for (const file of csvFiles) {
   const text = readFileSync(join(INVENTORY_DIR, file), "utf8").replace(/^\uFEFF/, "");
@@ -136,6 +137,11 @@ for (const file of csvFiles) {
       skipped.unpublished += 1;
       continue;
     }
+    // Rows with no photo assigned in the POS are left off the site entirely.
+    if (!imagePath) {
+      skipped.noImageLocation.push(name);
+      continue;
+    }
 
     const id = slugify(name);
     if (seenIds.has(id)) {
@@ -145,17 +151,13 @@ for (const file of csvFiles) {
     seenIds.add(id);
 
     let image = null;
-    if (imagePath) {
-      const transformed = imagePath.replace(/(\.[a-z0-9]+)$/i, "-transformed$1");
-      if (PREFER_TRANSFORMED && existsSync(join(PUBLIC_DIR, transformed))) {
-        image = transformed;
-      } else if (existsSync(join(PUBLIC_DIR, imagePath))) {
-        image = imagePath;
-      } else {
-        skipped.missingImage.push(`${name} → ${imagePath}`);
-      }
+    const transformed = imagePath.replace(/(\.[a-z0-9]+)$/i, "-transformed$1");
+    if (PREFER_TRANSFORMED && existsSync(join(PUBLIC_DIR, transformed))) {
+      image = transformed;
+    } else if (existsSync(join(PUBLIC_DIR, imagePath))) {
+      image = imagePath;
     } else {
-      skipped.missingImage.push(`${name} (no ImageLocation)`);
+      skipped.missingImage.push(`${name} → ${imagePath}`);
     }
 
     products.push({ id, name, categorySlug: CATEGORY_SLUGS[category], image });
@@ -177,7 +179,11 @@ if (skipped.duplicate.length) {
   console.log(`  skipped (duplicate name): ${skipped.duplicate.length}`);
   skipped.duplicate.forEach((s) => console.log(`    - ${s}`));
 }
+if (skipped.noImageLocation.length) {
+  console.log(`  skipped (no ImageLocation): ${skipped.noImageLocation.length}`);
+  skipped.noImageLocation.forEach((s) => console.log(`    - ${s}`));
+}
 if (skipped.missingImage.length) {
-  console.log(`  published WITHOUT image (placeholder shown): ${skipped.missingImage.length}`);
+  console.log(`  published WITHOUT image (file not found; placeholder shown): ${skipped.missingImage.length}`);
   skipped.missingImage.forEach((s) => console.log(`    - ${s}`));
 }

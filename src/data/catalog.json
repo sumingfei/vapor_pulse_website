@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:08:09.988Z",
+  "generatedAt": "2026-09-18T04:09:05.711Z",
   "products": [
     {
       "id": "air-factory-20k-disposable",
@@ -42,12 +42,6 @@
       "name": "Blanco Chapo Double Stacks Gummy [1 Piece] - Hybrid",
       "categorySlug": "herbal-wellness",
       "image": "/products/herbal-wellness/blanco-chapo-double-stacks-gummy-1-piece-hybrid-transformed.webp"
-    },
-    {
-      "id": "blend-3ct-alkaloid-pack-strawberry",
-      "name": "Blend - 3ct Alkaloid Pack - Strawberry",
-      "categorySlug": "herbal-wellness",
-      "image": null
     },
     {
       "id": "bsx-ice-60ml-6mg-strawnana-ice",
@@ -482,12 +476,6 @@
       "image": "/products/vape-devices/lookah-turtle-510-cartridge-battery-purple-transformed.webp"
     },
     {
-      "id": "looper-duos-thc-30mg-gummies-watermelon-punch",
-      "name": "Looper Duos THC 30MG Gummies - Watermelon / Punch",
-      "categorySlug": "herbal-wellness",
-      "image": null
-    },
-    {
       "id": "losgal-25k-puff-disposable",
       "name": "Losgal 25k Puff Disposable",
       "categorySlug": "disposable-vapes",
@@ -510,24 +498,6 @@
       "name": "Lost Mary Turbo 35k Disposable",
       "categorySlug": "disposable-vapes",
       "image": "/products/disposable-vapes/lost-mary-turbo-35k-disposable-transformed.webp"
-    },
-    {
-      "id": "low-tide-3-5-hemp-flower-hybrid",
-      "name": "Low Tide 3.5 Hemp Flower - Hybrid",
-      "categorySlug": "herbal-wellness",
-      "image": null
-    },
-    {
-      "id": "megahit-7oh-single-tablet-52mg-blue-razzberry",
-      "name": "Megahit 7OH Single Tablet [52mg] - Blue Razzberry",
-      "categorySlug": "herbal-wellness",
-      "image": null
-    },
-    {
-      "id": "mellow-fellow-3-5g-1-hitter-bundle-hybrid",
-      "name": "Mellow Fellow 3.5g + 1 Hitter Bundle - Hybrid",
-      "categorySlug": "herbal-wellness",
-      "image": null
     },
     {
       "id": "mellow-fellow-max-dose-10-000mg-gummies-20ct-watermelon",
@@ -800,12 +770,6 @@
       "image": "/products/e-liquids/the-one-100ml-3mg-milky-loops-transformed.webp"
     },
     {
-      "id": "toke-station-thcp-pre-roll-1-5g-hybrid",
-      "name": "Toke Station thcP Pre Roll [1.5g] - Hybrid",
-      "categorySlug": "herbal-wellness",
-      "image": null
-    },
-    {
       "id": "twist-salt-30ml-50mh-purple-no-1",
       "name": "Twist Salt / 30ml - 50mh Purple No.1",
       "categorySlug": "e-liquids",
@@ -888,12 +852,6 @@
       "name": "VGOD SALTS - 50mg Mighty Mint",
       "categorySlug": "e-liquids",
       "image": "/products/e-liquids/vgod-salts-50mg-mighty-mint-transformed.webp"
-    },
-    {
-      "id": "warpd-2g-single-preroll-boost",
-      "name": "Warpd 2G Single Preroll - Boost",
-      "categorySlug": "herbal-wellness",
-      "image": null
     },
     {
       "id": "wyld-250mg-cbd-gummies-raspberry",

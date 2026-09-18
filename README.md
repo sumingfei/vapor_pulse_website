@@ -51,7 +51,8 @@ under `public/`**. The workflow keeps it private:
    name, category and image path.
 
 Product photos live under `public/products/<category-slug>/` and are
-referenced by the CSV's `ImageLocation` column. Only categories listed in
+referenced by the CSV's `ImageLocation` column; rows with no `ImageLocation`
+are left off the site. Only categories listed in
 `PUBLISHED_CATEGORIES` in `scripts/import-inventory.mjs` are published; add a
 label there to publish another category. `PREFER_TRANSFORMED` switches to the
 dark-background `-transformed` renders where they exist.
