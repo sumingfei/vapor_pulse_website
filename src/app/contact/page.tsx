@@ -7,10 +7,7 @@ import { LocationCard } from "@/components/location/LocationCard";
 import { StoreMap } from "@/components/location/StoreMap";
 import { StoreHours } from "@/components/location/StoreHours";
 import { PageHeader } from "@/components/ui/PageHeader";
-import {
-  LeaveReviewButton,
-  ReadReviewsButton,
-} from "@/components/ui/ReviewButtons";
+import { LeaveReviewButton } from "@/components/ui/ReviewButtons";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { SuggestionSection } from "@/components/suggestion/SuggestionSection";
 import { business } from "@/data/business";
@@ -150,8 +147,7 @@ export default function ContactPage() {
               description="Reviews genuinely help a local shop. If we got it right, telling people takes a minute."
               as="h2"
             />
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <ReadReviewsButton variant="secondary" location="contact_reviews" />
+            <div className="mt-6">
               <LeaveReviewButton variant="primary" location="contact_reviews" />
             </div>
           </div>
