@@ -1,4 +1,5 @@
-import { MessageSquarePlus } from "lucide-react";
+import Link from "next/link";
+import { ArrowUpRight, MessageSquarePlus } from "lucide-react";
 
 import { PuffMascot } from "@/components/brand/PuffMascot";
 import { SuggestionDialog } from "@/components/suggestion/SuggestionDialog";
@@ -7,7 +8,7 @@ import { cn } from "@/lib/utils";
 /** Suggestion box — same panel treatment as the rewards section. */
 export function SuggestionSection({ className }: { className?: string }) {
   return (
-    <section className={cn("py-20 sm:py-24", className)}>
+    <section id="suggestions" className={cn("py-20 sm:py-24", className)}>
       <div className="container-vp">
         <div className="panel panel-lit relative overflow-hidden">
           <div
@@ -48,8 +49,16 @@ export function SuggestionSection({ className }: { className?: string }) {
                 in, so say the word.
               </p>
 
-              <div className="mt-7">
+              <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-4">
                 <SuggestionDialog />
+                {/* Permalink — the same form on its own shareable URL. */}
+                <Link
+                  href="/suggest"
+                  className="text-fog-400 hover:text-fog-50 inline-flex items-center gap-1.5 text-sm font-medium transition-colors"
+                >
+                  Open its own page
+                  <ArrowUpRight className="size-4" aria-hidden />
+                </Link>
               </div>
             </div>
           </div>

@@ -17,6 +17,7 @@ export const footerNav: NavLink[] = [
   { href: "/rewards", label: "Rewards" },
   { href: "/about", label: "About" },
   { href: "/faq", label: "FAQ" },
+  { href: "/suggest", label: "Suggestion Box" },
   { href: "/contact", label: "Contact" },
 ];
 
