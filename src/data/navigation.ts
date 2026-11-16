@@ -18,6 +18,7 @@ export const footerNav: NavLink[] = [
   { href: "/about", label: "About" },
   { href: "/faq", label: "FAQ" },
   { href: "/suggest", label: "Suggestion Box" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact" },
 ];
 

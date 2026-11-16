@@ -8,6 +8,7 @@
 
 import { business } from "@/data/business";
 import type { Faq } from "@/data/faqs";
+import type { JobPosting } from "@/data/hiring";
 import { getOpeningHoursSpecification } from "@/lib/hours";
 
 const LOGO_URL = `${business.site.url}/brand/vapor-pulse-logo.png`;
@@ -108,5 +109,50 @@ export function faqSchema(faqs: Faq[]) {
         text: faq.answer,
       },
     })),
+  };
+}
+
+/**
+ * JobPosting for the open role, which makes the listing eligible for the
+ * Google Jobs experience.
+ *
+ * Only emitted while the role is open — markup for a filled position is
+ * exactly the kind of inaccuracy Google penalises.
+ */
+export function jobPostingSchema(job: JobPosting) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: job.title,
+    description: job.summary,
+    datePosted: job.datePosted,
+    employmentType: ["PART_TIME", "TEMPORARY"],
+    hiringOrganization: { "@id": `${business.site.url}/#store` },
+    jobLocation: {
+      "@type": "Place",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: business.address.street,
+        addressLocality: business.address.city,
+        addressRegion: business.address.region,
+        postalCode: business.address.postalCode,
+        addressCountry: business.address.country,
+      },
+    },
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: "USD",
+      value: {
+        "@type": "QuantitativeValue",
+        minValue: job.pay.min,
+        maxValue: job.pay.max,
+        unitText: job.pay.unit,
+      },
+    },
+    applicantLocationRequirements: {
+      "@type": "Country",
+      name: "US",
+    },
+    directApply: false,
   };
 }
