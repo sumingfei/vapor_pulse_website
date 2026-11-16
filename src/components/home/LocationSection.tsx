@@ -9,6 +9,9 @@ export function LocationSection() {
       id="location"
       className="border-fog-400/10 bg-ink-900/40 border-y py-20 sm:py-24"
     >
+      {/* The quick-info bar links here for hours, which now live in the card
+          below rather than in a section of their own. */}
+      <span id="hours" className="sr-only" />
       <div className="container-vp">
         <SectionHeading
           eyebrow="Find the shop"
@@ -17,7 +20,7 @@ export function LocationSection() {
         />
 
         <div className="mt-10 grid gap-5 lg:grid-cols-[0.95fr_1.05fr] lg:gap-6">
-          <LocationCard location="home_location" showHours={false} />
+          <LocationCard location="home_location" />
           <StoreMap className="min-h-80 lg:min-h-full" />
         </div>
       </div>

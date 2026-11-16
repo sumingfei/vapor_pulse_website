@@ -1,8 +1,6 @@
 import { CategoriesSection } from "@/components/home/CategoriesSection";
 import { FaqPreview } from "@/components/home/FaqPreview";
-import { FinalCta } from "@/components/home/FinalCta";
 import { Hero } from "@/components/home/Hero";
-import { HoursSection } from "@/components/home/HoursSection";
 import { LocationSection } from "@/components/home/LocationSection";
 import { QuickInfoBar } from "@/components/home/QuickInfoBar";
 import { RewardsSection } from "@/components/home/RewardsSection";
@@ -27,10 +25,8 @@ export default function HomePage() {
       <WhySection />
       <RewardsSection />
       <LocationSection />
-      <HoursSection />
       <FaqPreview />
       <SuggestionSection />
-      <FinalCta />
     </>
   );
 }
