@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Gift, MessageCircle, Store } from "lucide-react";
 
 import { JsonLd } from "@/components/JsonLd";
@@ -147,6 +148,18 @@ export default function RewardsPage() {
                     >
                       {tier.reward}
                     </span>
+
+                    {tier.image && (
+                      <Image
+                        src={tier.image.src}
+                        width={tier.image.width}
+                        height={tier.image.height}
+                        alt=""
+                        aria-hidden
+                        unoptimized={tier.image.animated}
+                        className="size-14 shrink-0 rounded-lg sm:size-16"
+                      />
+                    )}
                   </li>
                 );
               })}

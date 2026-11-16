@@ -13,6 +13,9 @@ export type RewardTier = {
   /** Point cost, or "???" for a teased tier that is not live yet. */
   points: number | "???";
   reward: string;
+  /** Optional artwork shown beside the reward, in /public. Animated files
+      are served as-is — Next's optimizer would flatten them to one frame. */
+  image?: { src: string; width: number; height: number; animated?: boolean };
 };
 
 export type RewardsConfig = {
@@ -38,7 +41,16 @@ export const rewards: RewardsConfig = {
     { points: 150, reward: "15% off any item" },
     { points: 225, reward: "Buy one, get one 50% off any item" },
     { points: 320, reward: "25% off your entire purchase" },
-    { points: "???", reward: "Free mystery box (COMING SOON)" },
+    {
+      points: 388,
+      reward: "Free mystery box",
+      image: {
+        src: "/rewards/mystery-box-cube-animated.gif",
+        width: 356,
+        height: 356,
+        animated: true,
+      },
+    },
     { points: 500, reward: "Free anime pillow" },
     { points: 750, reward: "$15 in store credit" },
     { points: 1000, reward: "Free starter kit POD system" },
