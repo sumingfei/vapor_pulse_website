@@ -10,6 +10,7 @@ import { DirectionsButton } from "@/components/location/DirectionsButton";
 import { StoreStatus } from "@/components/location/StoreStatus";
 import { MobileNavigation } from "@/components/layout/MobileNavigation";
 import { business } from "@/data/business";
+import { job } from "@/data/hiring";
 import { mainNav } from "@/data/navigation";
 import { track } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
@@ -29,11 +30,39 @@ export function Header() {
   return (
     <>
       {/* Local info strip — the shop's status, address and number above
-          everything else. Scrolls away with the page. */}
-      <div className="border-fog-400/10 bg-ink-900/60 hidden border-b lg:block">
-        <div className="container-vp flex h-10 items-center justify-between gap-6 text-xs">
-          <StoreStatus variant="inline" />
-          <div className="flex items-center gap-5">
+          everything else. Scrolls away with the page.
+
+          On phones only the hiring link survives: status, address and number
+          are already one tap away in the bottom action bar, and three items
+          will not fit. With no open role there is nothing left to show, so
+          the whole strip goes back to being desktop-only. */}
+      <div
+        className={cn(
+          "border-fog-400/10 bg-ink-900/60 border-b",
+          job.open ? "block" : "hidden lg:block",
+        )}
+      >
+        <div className="container-vp grid h-10 items-center gap-6 text-xs lg:grid-cols-[1fr_auto_1fr]">
+          <div className="hidden lg:block">
+            <StoreStatus variant="inline" />
+          </div>
+
+          {/* Centred regardless of how wide the two sides run. Only while
+              the role is actually open — see src/data/hiring.ts. */}
+          {job.open ? (
+            <Link
+              href="/careers"
+              className="text-pulse-cyan hover:text-pulse-cyan-bright inline-flex items-center gap-3 justify-self-center text-sm font-semibold whitespace-nowrap transition-colors"
+            >
+              <span aria-hidden>🚀</span>
+              We Are Hiring!
+              <span aria-hidden>🚀</span>
+            </Link>
+          ) : (
+            <span />
+          )}
+
+          <div className="hidden items-center gap-5 justify-self-end lg:flex">
             <a
               href={business.google.mapsUrl}
               target="_blank"
