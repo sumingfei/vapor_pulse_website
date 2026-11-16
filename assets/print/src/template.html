@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vapor Pulse — Leave a Google Review</title>
+<style>
+  @font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:block;
+    src:url(data:font/woff2;base64,__ANTON__) format('woff2');}
+  @font-face{font-family:'InterVar';font-style:normal;font-weight:100 900;font-display:block;
+    src:url(data:font/woff2;base64,__INTER__) format('woff2');}
+
+  /* US Letter: 8.5 x 11in. Note it is 5.9mm WIDER but 17.6mm SHORTER
+     than A4, so the vertical rhythm below is tuned to 279.4mm. */
+  @page{ size:letter; margin:0; }
+
+  *{ margin:0; padding:0; box-sizing:border-box; }
+
+  html,body{ width:215.9mm; height:279.4mm; }
+
+  body{
+    font-family:'InterVar',system-ui,sans-serif;
+    background:#05060B;
+    color:#CCD6EC;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden;
+  }
+
+  /* Force the dark artwork to survive the print pipeline. */
+  *{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+  .sheet{
+    position:relative;
+    width:215.9mm; height:279.4mm;
+    overflow:hidden;
+    display:flex; flex-direction:column; align-items:center;
+    padding:10mm 18mm 16mm;
+  }
+
+  /* ---- neon atmosphere -------------------------------------------------- */
+  /* Three soft brand-coloured light sources, so the black reads as a lit room
+     rather than a flat rectangle (same trick the website uses). */
+  .glow{ position:absolute; border-radius:50%; filter:blur(26mm); pointer-events:none; }
+  .glow-cyan   { width:150mm; height:110mm; top:-42mm;  left:-40mm;  background:#62D2F9; opacity:.30; }
+  .glow-mag    { width:140mm; height:120mm; top:62mm;   right:-52mm; background:#E037F6; opacity:.26; }
+  .glow-violet { width:170mm; height:120mm; bottom:-48mm; left:14mm; background:#805BF1; opacity:.24; }
+
+  /* No z-index: it would isolate the logos' screen blend and clobber
+     .frame's absolute positioning. Positioned siblings paint in DOM order. */
+  .sheet > *:not(.glow):not(.frame){ position:relative; }
+
+  /* A hairline neon frame just inside the trim. */
+  .frame{
+    position:absolute; inset:7mm; border-radius:5mm;
+    border:0.5mm solid rgba(154,232,255,.30);
+    box-shadow:0 0 7mm rgba(98,210,249,.22) inset, 0 0 4mm rgba(224,55,246,.16);
+  }
+
+  /* ---- masthead --------------------------------------------------------- */
+  .wordmark{ height:21mm; mix-blend-mode:screen; }
+
+  /* ---- headline --------------------------------------------------------- */
+  .kicker{
+    margin-top:5mm;
+    font-size:4.6mm; font-weight:700; letter-spacing:.42em;
+    text-transform:uppercase; color:#9AE8FF; text-indent:.42em;
+  }
+
+  h1{
+    margin-top:4mm;
+    font-family:'Anton',Arial Narrow,sans-serif;
+    font-weight:400; text-transform:uppercase;
+    font-size:18.5mm; line-height:.94; letter-spacing:.012em;
+    color:#FFFFFF; text-align:center;
+    text-shadow:0 0 5mm rgba(98,210,249,.55), 0 0 12mm rgba(224,55,246,.35);
+  }
+  h1 .accent{
+    background:linear-gradient(95deg,#9AE8FF 0%,#62D2F9 34%,#E037F6 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+
+  .stars{ margin-top:4mm; display:flex; gap:2.6mm; }
+  .stars svg{ width:9.5mm; height:9.5mm; filter:drop-shadow(0 0 2.6mm rgba(255,200,60,.65)); }
+
+  /* ---- QR card ---------------------------------------------------------- */
+  .qr-card{
+    margin-top:5mm;
+    width:104mm;
+    background:#FFFFFF;
+    border-radius:5mm;
+    padding:5.5mm 5.5mm 4.5mm;
+    display:flex; flex-direction:column; align-items:center;
+    box-shadow:0 0 14mm rgba(98,210,249,.42), 0 0 28mm rgba(224,55,246,.22);
+  }
+  /* Quiet zone is built into the padding above, so the SVG carries no margin. */
+  .qr-card img{ width:72mm; height:72mm; display:block; }
+
+  .scan{
+    margin-top:4.5mm;
+    font-size:5.2mm; font-weight:800; letter-spacing:.17em;
+    text-transform:uppercase; color:#05060B; text-align:center; text-indent:.17em;
+  }
+  .scan small{
+    display:block; margin-top:1.6mm;
+    font-size:3.4mm; font-weight:600; letter-spacing:.07em;
+    color:#5A6681; text-transform:none;
+  }
+
+  /* ---- steps ------------------------------------------------------------ */
+  .steps{
+    margin-top:5mm;
+    display:flex; align-items:flex-start; gap:7mm;
+    width:100%; justify-content:center;
+  }
+  .step{ display:flex; align-items:center; gap:2.6mm; }
+  .step b{
+    flex:none;
+    width:7.4mm; height:7.4mm; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:4mm; font-weight:800; color:#05060B;
+    background:linear-gradient(140deg,#9AE8FF,#62D2F9);
+  }
+  .step span{ font-size:3.9mm; font-weight:600; color:#E4EAF8; line-height:1.25; }
+
+  /* ---- thank-you strip -------------------------------------------------- */
+  .thanks{
+    margin-top:auto;
+    width:100%;
+    display:flex; align-items:center; gap:6mm;
+  }
+  .puff{ height:33mm; mix-blend-mode:screen; flex:none; }
+
+  .thanks-copy{ flex:1; }
+  .thanks-copy .big{
+    font-family:'Anton',Arial Narrow,sans-serif;
+    font-size:9mm; line-height:1; text-transform:uppercase; color:#FFFFFF;
+    text-shadow:0 0 4mm rgba(224,55,246,.5);
+  }
+  .thanks-copy p{
+    margin-top:2.4mm; font-size:3.9mm; line-height:1.45; color:#98A4C0; max-width:118mm;
+  }
+
+
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="glow glow-cyan"></div>
+  <div class="glow glow-mag"></div>
+  <div class="glow glow-violet"></div>
+  <div class="frame"></div>
+
+  <img class="wordmark" src="data:image/png;base64,__WORDMARK__" alt="Vapor Pulse">
+
+  <div class="kicker">Enjoyed your visit?</div>
+
+  <h1>Leave Us A<br><span class="accent">Google Review</span></h1>
+
+  <div class="stars">
+    __STARS__
+  </div>
+
+  <div class="qr-card">
+    <img src="data:image/svg+xml;base64,__QR__" alt="QR code linking to the Vapor Pulse Google review form">
+    <div class="scan">
+      Scan to review
+      <small>Point your phone camera at the code</small>
+    </div>
+  </div>
+
+  <div class="steps">
+    <div class="step"><b>1</b><span>Open your<br>camera app</span></div>
+    <div class="step"><b>2</b><span>Tap the link<br>that pops up</span></div>
+    <div class="step"><b>3</b><span>Rate us &amp;<br>hit post</span></div>
+  </div>
+
+  <div class="thanks">
+    <img class="puff" src="data:image/png;base64,__PUFF__" alt="">
+    <div class="thanks-copy">
+      <div class="big">Takes 30 seconds</div>
+      <p>Your review helps your neighbors find us &mdash; and helps us keep the
+         shelves stocked with what you actually want. Thank you!</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

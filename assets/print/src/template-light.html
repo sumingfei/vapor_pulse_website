@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vapor Pulse — Leave a Google Review (light)</title>
+<style>
+  @font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:block;
+    src:url(data:font/woff2;base64,__ANTON__) format('woff2');}
+  @font-face{font-family:'InterVar';font-style:normal;font-weight:100 900;font-display:block;
+    src:url(data:font/woff2;base64,__INTER__) format('woff2');}
+
+  /* US Letter: 8.5 x 11in. Note it is 5.9mm WIDER but 17.6mm SHORTER
+     than A4, so the vertical rhythm below is tuned to 279.4mm. */
+  @page{ size:letter; margin:0; }
+
+  *{ margin:0; padding:0; box-sizing:border-box;
+     -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+  html,body{ width:215.9mm; height:279.4mm; }
+
+  body{
+    font-family:'InterVar',system-ui,sans-serif;
+    background:#FFFFFF;
+    color:#2A3047;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden;
+  }
+
+  /* INK BUDGET: the page is deliberately white. The only heavy coverage is the
+     small masthead badge (the logo artwork is neon-on-black and cannot sit on
+     white) and the QR itself. Everything else is hairlines and type. */
+  .sheet{
+    position:relative;
+    width:215.9mm; height:279.4mm;
+    overflow:hidden;
+    display:flex; flex-direction:column; align-items:center;
+    padding:11mm 20mm 16mm;
+  }
+
+  /* ---- paper wash --------------------------------------------------------
+     Same three brand light sources as the dark poster, but dialled right down
+     so on white they read as a faint pastel tint rather than neon. Matches the
+     suggestion-box poster. */
+  .glow{ position:absolute; border-radius:50%; filter:blur(30mm); pointer-events:none; }
+  .glow-cyan   { width:150mm; height:110mm; top:-42mm;  left:-40mm;  background:#62D2F9; opacity:.10; }
+  .glow-mag    { width:140mm; height:120mm; top:62mm;   right:-52mm; background:#E037F6; opacity:.07; }
+  .glow-violet { width:170mm; height:120mm; bottom:-48mm; left:14mm; background:#805BF1; opacity:.08; }
+
+  /* No z-index: it would isolate the logos' screen blend and clobber
+     .frame's absolute positioning. Positioned siblings paint in DOM order. */
+  .sheet > *:not(.glow):not(.frame){ position:relative; }
+
+  /* Violet hairline just inside the trim. */
+  .frame{
+    position:absolute; inset:7mm; border-radius:5mm;
+    border:0.6mm solid rgba(128,91,241,.55);
+  }
+
+  /* ---- masthead --------------------------------------------------------- */
+  .badge{
+    background:#0A0C14;
+    border-radius:3.5mm;
+    padding:4mm 9mm;
+    display:flex; align-items:center; justify-content:center;
+  }
+  /* Screen blend drops the artwork's black background into the badge. */
+  .badge img{ height:17mm; display:block; mix-blend-mode:screen; }
+
+  /* ---- headline --------------------------------------------------------- */
+  .kicker{
+    margin-top:6mm;
+    font-size:4.4mm; font-weight:700; letter-spacing:.42em; text-indent:.42em;
+    text-transform:uppercase; color:#1B7FB8;
+  }
+
+  h1{
+    margin-top:4mm;
+    font-family:'Anton',Arial Narrow,sans-serif;
+    font-weight:400; text-transform:uppercase;
+    font-size:18.5mm; line-height:.94; letter-spacing:.012em;
+    color:#0A0C14; text-align:center;
+  }
+  /* Darkened brand ramp: the screen cyan/magenta are too light to read as
+     type on white, so the gradient runs through print-safe equivalents. */
+  h1 .accent{
+    background:linear-gradient(95deg,#1788C6 0%,#5B3FD6 55%,#A81FB8 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+
+  .stars{ margin-top:4mm; display:flex; gap:2.6mm; }
+  .stars svg{ width:9.5mm; height:9.5mm; }
+
+  /* ---- QR --------------------------------------------------------------- */
+  /* No white card here: the page is already white, so the QR sits straight on
+     it inside a hairline rule. Quiet zone comes from the padding. */
+  .qr-card{
+    margin-top:5mm;
+    width:102mm;
+    border:0.8mm solid #805BF1;
+    box-shadow:0 0 0 1.6mm rgba(98,210,249,.25);
+    border-radius:4mm;
+    padding:5.5mm 5.5mm 4.5mm;
+    display:flex; flex-direction:column; align-items:center;
+  }
+  .qr-card img{ width:72mm; height:72mm; display:block; }
+
+  .scan{
+    margin-top:4.5mm;
+    font-size:5.2mm; font-weight:800; letter-spacing:.17em; text-indent:.17em;
+    text-transform:uppercase; color:#0A0C14; text-align:center;
+  }
+  .scan small{
+    display:block; margin-top:1.6mm;
+    font-size:3.4mm; font-weight:600; letter-spacing:.06em;
+    color:#6B7790; text-transform:none; text-indent:0;
+  }
+
+  /* ---- steps ------------------------------------------------------------ */
+  .steps{
+    margin-top:5mm;
+    display:flex; align-items:flex-start; gap:8mm; justify-content:center;
+  }
+  .step{ display:flex; align-items:center; gap:2.6mm; }
+  /* Outlined, not filled - a solid disc here is pure wasted toner. */
+  .step b{
+    flex:none;
+    width:7.4mm; height:7.4mm; border-radius:50%;
+    border:0.45mm solid #1B7FB8;
+    display:flex; align-items:center; justify-content:center;
+    font-size:4mm; font-weight:800; color:#1B7FB8;
+  }
+  .step span{ font-size:3.9mm; font-weight:600; color:#2A3047; line-height:1.25; }
+
+  /* ---- thank-you strip -------------------------------------------------- */
+  .thanks{
+    margin-top:auto;
+    width:100%;
+    display:flex; align-items:center; gap:6mm;
+  }
+  /* Puff is neon-on-black too, so it gets the same dark badge as the
+     masthead rather than a black rectangle floating on white. */
+  .puff-badge{
+    flex:none;
+    background:#0A0C14;
+    border-radius:3.5mm;
+    padding:2.5mm;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .puff-badge img{ height:27mm; display:block; mix-blend-mode:screen; }
+
+  .thanks-copy{ flex:1; }
+  .thanks-copy .big{
+    font-family:'Anton',Arial Narrow,sans-serif;
+    font-size:9mm; line-height:1; text-transform:uppercase; color:#0A0C14;
+  }
+  .thanks-copy p{
+    margin-top:2.4mm; font-size:3.9mm; line-height:1.45; color:#5A6681; max-width:118mm;
+  }
+
+
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="glow glow-cyan"></div>
+  <div class="glow glow-mag"></div>
+  <div class="glow glow-violet"></div>
+  <div class="frame"></div>
+
+  <div class="badge">
+    <img src="data:image/png;base64,__WORDMARK__" alt="Vapor Pulse">
+  </div>
+
+  <div class="kicker">Enjoyed your visit?</div>
+
+  <h1>Leave Us A<br><span class="accent">Google Review</span></h1>
+
+  <div class="stars">
+    __STARS__
+  </div>
+
+  <div class="qr-card">
+    <img src="data:image/svg+xml;base64,__QR__" alt="QR code linking to the Vapor Pulse Google review form">
+    <div class="scan">
+      Scan to review
+      <small>Point your phone camera at the code</small>
+    </div>
+  </div>
+
+  <div class="steps">
+    <div class="step"><b>1</b><span>Open your<br>camera app</span></div>
+    <div class="step"><b>2</b><span>Tap the link<br>that pops up</span></div>
+    <div class="step"><b>3</b><span>Rate us &amp;<br>hit post</span></div>
+  </div>
+
+  <div class="thanks">
+    <div class="puff-badge">
+      <img src="data:image/png;base64,__PUFF__" alt="">
+    </div>
+    <div class="thanks-copy">
+      <div class="big">Takes 30 seconds</div>
+      <p>Your review helps your neighbors find us &mdash; and helps us keep the
+         shelves stocked with what you actually want. Thank you!</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
