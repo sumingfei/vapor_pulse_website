@@ -12,6 +12,7 @@ export function PageHeader({
   description,
   breadcrumbs,
   children,
+  showWave = true,
   className,
 }: {
   eyebrow?: string;
@@ -19,6 +20,9 @@ export function PageHeader({
   description?: string;
   breadcrumbs: Crumb[];
   children?: React.ReactNode;
+  /** The wave reads as a divider into the page body; pages that flow straight
+      into running text turn it off. */
+  showWave?: boolean;
   className?: string;
 }) {
   return (
@@ -57,7 +61,7 @@ export function PageHeader({
 
         {children && <div className="mt-7">{children}</div>}
 
-        <PulseWave className="mt-10 h-8 opacity-50" />
+        {showWave && <PulseWave className="mt-10 h-8 opacity-50" />}
       </div>
     </header>
   );

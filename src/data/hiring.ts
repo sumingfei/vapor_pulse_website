@@ -77,5 +77,5 @@ export const job: JobPosting = {
   ],
   applySubject: "Application — Vape Store Associate",
   applyAsk:
-    "Send us an introduction about yourself, your availability, and your resume.",
+    "Send us an introduction about yourself, your availability, and your resume (required).",
 };
