@@ -30,7 +30,8 @@ CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 CSS_W, CSS_H = 816, 1056
 SCALE = 3.125  # 816 * 3.125 = 2550 = 8.5in * 300dpi
 
-VARIANTS = ["google-review-poster-letter", "google-review-poster-letter-light"]
+# Pass page names to export just those, e.g. `export.py mystery-giveaway-poster-letter`.
+VARIANTS = sys.argv[1:] or ["google-review-poster-letter", "google-review-poster-letter-light"]
 
 
 def chrome(*args):
