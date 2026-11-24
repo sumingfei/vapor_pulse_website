@@ -16,6 +16,8 @@ export type RewardTier = {
   /** Optional artwork shown beside the reward, in /public. Animated files
       are served as-is — Next's optimizer would flatten them to one frame. */
   image?: { src: string; width: number; height: number; animated?: boolean };
+  /** Highlights a tier on the ladder in the site's neon purple. */
+  accent?: "purple";
 };
 
 export type RewardsConfig = {
@@ -44,6 +46,7 @@ export const rewards: RewardsConfig = {
     {
       points: 388,
       reward: "Free mystery box",
+      accent: "purple",
       image: {
         src: "/rewards/mystery-box-cube-animated.gif",
         width: 356,

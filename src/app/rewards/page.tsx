@@ -132,7 +132,9 @@ export default function RewardsPage() {
                     <span
                       className={cn(
                         "font-display w-24 shrink-0 text-2xl leading-none tabular-nums sm:w-32 sm:text-3xl",
-                        teaser ? "text-neon-magenta" : "text-neon-cyan",
+                        teaser || tier.accent === "purple"
+                          ? "text-neon-magenta"
+                          : "text-neon-cyan",
                       )}
                     >
                       {tier.points}
@@ -143,7 +145,11 @@ export default function RewardsPage() {
                     <span
                       className={cn(
                         "text-base sm:text-lg",
-                        teaser ? "text-fog-50 font-semibold" : "text-fog-200",
+                        teaser
+                          ? "text-fog-50 font-semibold"
+                          : tier.accent === "purple"
+                            ? "text-neon-magenta font-semibold"
+                            : "text-fog-200",
                       )}
                     >
                       {tier.reward}
